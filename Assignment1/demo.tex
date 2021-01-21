@@ -46,7 +46,7 @@
 \begin{document}
 
 \title{MATH2040C Homework 1}
-\author{Zheng Weijia (William)}
+\author{(William)}
 \date{\today}
 \maketitle
 
@@ -153,6 +153,123 @@ Since the requirements are all satisfied, therefore the set $Z$ is a vector spac
 ~\ 
 
 \section{Section 1.3 Q11}
+
+$\forall n\geq 1$ and $n$ being an integer, note that $f_1(x) = x^{n}+1 \in W$ and $f_2(x)=-x^{n} \in W.$
+
+Given that $n\geq 1$, suppose that $W$ is a subspace of $P(\mathbb{F}).$ Then $W$ is a vector space itself, which implies that $$f_1(x)+f_2(x)=1\in W.$$
+
+Note that $1$ is of degree 0, and $1\neq 0.$ Hence by definition of $W$, $1=f_1(x)+f_2(x)\notin W.$
+
+This is violating the requirements of being a vector space, because the addition defined on $W$, which is supposed to be a vector space, should have range $W$.
+
+Therefore, W is not a subspace of $P(F)$ at the first place. 
+
+~\ 
+
+\section{Section 1.3 Q19}
+
+First, we prove the "if" direction. 
+
+Given that $W_1\subset W_2$ or $W_2 \subset W_1,$ we would prove $W_1 \cup W_2$ is a subspace of $V$.
+
+Suppse the case is that $W_1\subset W_2,$ then $W_1 \cup W_2= W_2.$ From the condition we knwo that $W_2$ itself is a subspace of $V.$ Therefore $W_1 \cup W_2= W_2$ is a subspace of $V.$
+
+Then, suppse the case is that $W_2\subset W_1,$ then $W_1 \cup W_2= W_1.$ From the condition we knwo that $W_2$ itself is a subspace of $V.$ Therefore $W_1 \cup W_2= W_1$ is a subspace of $V.$
+
+The "if" direction is proved. 
+
+~\ 
+
+We would prove the "only if" part then. Now we assume $W_1 \cup W_2$ is a subspace of $V$ and try to deduce that $W_1 \subset W_2$ or $W_1 \subset W_2.$
+
+Assume it's not the case, neither of $W_1$ and $W_2$ can be empty set. 
+
+Then $\exists x_1 \in W_1$ such that $x_1 \notin W_2,$ and $\exists x_2 \in W_2$ such that $x_2 \notin W_1$. 
+Note that $W_1,W_2$ are subspaces of $W_1 \cup W_2$, hence the zero vector of $W_1 \cup W_2$'s (denoted as $0_{12}$) is also $W_1$'s (denoted as $0_1$) and $W_2$'s (denoted as $0_2$). 
+
+In short, $$0_{12}=0_1=0_2.$$
+
+Note that $x_1+x_2 \in W_1 \cup W_2,$ since both $x_1,x_2 \in W_1 \cup W_2.$
+
+(i) Suppose $x_1+x_2 \in W_1.$ As $W_1$ itself is a vector space, $\exists y_1 \in W_1$ such that $x_1+y_1 = 0_1.$ Then $$y_1+x_1+x_2=0_1+x_2=0_2+x_2=x_2 \in W_1.$$
+
+Which contradicts with our assumption that $x_2 \notin W_1.$ 
+
+~\ 
+
+(ii) Suppose $x_1+x_2 \in W_2.$ As $W_2$ itself is a vector space, $\exists y_2 \in W_2$ such that $x_2+y_2 = 0_2.$ Then $$x_1+x_2+y_2=x_1+0_2=x_1+0_1=x_1 \in W_2.$$
+
+Which contradicts with our assumption that $x_1 \notin W_2.$ 
+
+Therefore, $\forall x_1 \in W_1, x_1 \in W_2$ or $\forall x_2 \in W_2, x_2 \in W_1$ must hold at the first place. Which is by definition $W_1 \subset W_2$ or $W_2 \subset W_1.$
+
+~\ 
+
+\section{Section 1.3 Q31}
+
+\subsection{(a)} 
+
+First we prove the "if" part, which assumes $v \in W$
+
+~\ 
+
+$\forall v+x \in v+W$, where $x \in W$, note that $v+x \in W$ since $W$ is a vector space. Hence $v+W \subset W.$
+
+~\ 
+
+$\exists y \in W$ such that $y+v=0_W$, where $0_W$ is the zero vector of $W$. 
+$\forall x \in W,$ $$x=x+0_W=x+(y+v)=(x+y)+v.$$ 
+
+Note that $x+y\in W$, hence $x=(x+y)+v \in W.$ Therefore, $W \subset v+W.$ Then $v+W=W$, hence $v+W$ is a subspace.
+
+~\ 
+
+Then we would prove the "only if" part, which assumes $v+W$ is a subspace of $V$. Note that $\forall x \in W, v+x \in v+W.$
+
+Because  $x\in W$ and $W$ is a vector space, $\exists y \in W$ such that $x+y=0_W$, where $0_W$ is the zero vector of $W$. Also note that $v+y \in v+W.$
+
+Then $v+x+(v+y)=v+(x+y+v) \ v+W,$ since $v+W$ is a subspace. Hence $x+y+v \in W.$ Recall that $x+y=0_W$, then $v \in W.$
+
+Therefore, we proved the (a) part. 
+
+~\ 
+
+\subsection{(b)} 
+
+We prove the "if" part first, which assumes $v_1-v_2 \in W$.
+
+Note that $\forall v_1+w_1 \in v_1+W$, since $v_1-v_2 \in W$ as assumed and $w_1 \in W$, we have $$v_1-v_2+w_1 \in W.$$
+
+Therefore, there exists an element in $v_2+W$, which is $v_2+v_1-v_2+w_1=v_1+w_1\in v_2+W.$ 
+
+Hence $v_1+W \subset v_2+W.$
+
+~\ 
+
+Note that $\forall v_2+w_2 \in v_2+W$, since $v_1-v_2 \in W$ as assumed and $w_2 \in W$, we have $$v_1-v_2-w_2 \in W.$$
+
+Therefore, there exists an element in $v_1+W$, which is $v_1-(v_1-v_2-w_2)=v_2+w_2\in v_1+W.$ 
+
+Hence $v_2+W \subset v_1+W.$ Therefore, $v_2+W = v_1+W.$
+
+~\ 
+
+We prove the "only if" part first, which assumes $v_1+W = v_2+W$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

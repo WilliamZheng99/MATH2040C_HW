@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.1.20)  21 JAN 2021 04:11
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.1.20)  21 JAN 2021 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/user/Desktop/LatexDemo/demo
-(c:/Users/user/Desktop/LatexDemo/demo.tex
+**d:/Git_UniQ/MATH2040C_HW/Assignment1/demo
+(d:/Git_UniQ/MATH2040C_HW/Assignment1/demo.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (d:/Download/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -274,18 +274,18 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 
 [1
 
-] [2] [3] (./demo.aux)
+] [2] [3] [4] [5] (./demo.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3489 strings out of 477220
- 50869 string characters out of 5830005
- 355068 words of memory out of 5000000
- 23161 multiletter control sequences out of 15000+600000
+ 3490 strings out of 477220
+ 50899 string characters out of 5830005
+ 357068 words of memory out of 5000000
+ 23162 multiletter control sequences out of 15000+600000
  410706 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,6n,74p,301b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,8n,74p,306b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on demo.pdf (3 pages).
+Output written on demo.pdf (5 pages).
