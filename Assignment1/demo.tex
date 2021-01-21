@@ -46,7 +46,7 @@
 \begin{document}
 
 \title{MATH2040C Homework 1}
-\author{(William)}
+\author{ZHENG Weijia (William)}
 \date{\today}
 \maketitle
 
@@ -254,8 +254,199 @@ Hence $v_2+W \subset v_1+W.$ Therefore, $v_2+W = v_1+W.$
 
 ~\ 
 
-We prove the "only if" part first, which assumes $v_1+W = v_2+W$.
+We prove the "only if" part then, which assumes $v_1+W = v_2+W$. 
 
+Note that $\forall v_1+w_1\in v_1+W$, $v_1+w+1 \in v_2 +W.$ Therefore $\exists w_2 \in W$ such that $v_2+w_2=v_1+w_1.$ Which implies $$v_1-v_2=w_2-w_1.$$
+
+Note that $w_2,w_1 \in W$, and $1,-1 \in \mathbb{F},$ then $w_2-w_1=v_1-v_2\in W.$
+
+Therefore we proved the (b) part. 
+
+~\ 
+
+\subsection{(c)} 
+
+From (b) part, since $v_1+W=v_1^{'}+W$ and $v_2+W=v_2^{'}+W$, we have $v_1-v_1^{'}\in W$ and $v_2-v_2^{'} \in W.$ 
+
+Hence $$v_1-v_1^{'}+v_2-v_2^{'}=v_1+v_2-v_1^{'}-v_2^{'}\in W.$$
+
+By definition, $(v_1+W)+(v_2+W)=(v_1+v_2)+W.$ and $(v_1^{'}+W)+(v_2^{'}+W)=(v_1^{'}+v_2^{'})+W.$ Combine with the equation two lines above and result from (b), $$(v_1+W)+(v_2+W)=(v_1^{'}+W)+(v_2^{'}+W).$$
+
+By definition, $a(v_1+W)=av_1+W$, $a(v_1^{'}+W)=av_1^{'}+W.$ With $v_1-v_1^{'} \in W$ and $a\in \mathbb{F},$ $a(v_1-v_1^{'})=av_1-av_1^{'}\in W.$
+
+Therefore $a(v_1+W)=av_1+W=av_1^{'}+W=a(v_1^{'}+W).$
+
+Therefore we proved the (c) part. 
+
+~\ 
+
+\subsection{(d)}
+
+To prove $S$ is a vector space as stated. One need to check the VS's. 
+
+Note that V is a vector space, and W is a subspace of V over field $\mathbb{F}.$ And also note that the operations are well defined that fits the requirements. 
+
+[VS1]: $\forall v_1+W,v_2+W \in S$, $$v_1+W+(v_2+W) =(v_1+v_2)+W=(v_2+v_1)+W=v_2+W+(v_1+W).$$ 
+
+Therefore, VS1 is satisfied. 
+
+
+~\ 
+
+[VS2]: $\forall v_1+W,v_2+W,v_3+W \in S,$ 
+
+Note that $(v_1+W+(v_2+W))+v_3+W=(v_1+v_2+v_3)+W=v_1+W+(v_2+v_3)+W=v_1+W+(v_2+W+v_3+W).$ 
+
+Therefore, VS2 is satisfied. 
+
+~\ 
+
+[VS3]: Since $V$ is a vector space, denote the zero vector of $V$ as $0_V.$ Note that $0_V +W \in S$ $$\forall v_1+W \in S, v_1+W+(0_V +W)=(v_1+0_V)+W=v_1+W.$$
+
+Hence $0_V + W $ is the zero vector of $S.$ And the VS3 is satisfied. 
+
+~\ 
+
+[VS4]: Since $V$ is a vector space, $\forall v_1 \in V,$ 
+
+$\exists u_1 \in V$ such that $v_1+u_1=0_V.$ For $v_1+W \in S,$ $v_1+W+(u_1+W)=(v_1+u_1)+W=0_V+W.$ Which is the zero vector of $S.$
+
+Therefore, VS4 is satisfied. 
+
+~\ 
+
+[VS5]: Note that $\forall v_1+W\in S,$ $1\cdot (v_1+W)=1\cdot v_1 +W = v_1+W.$
+
+Therefore, VS5 is satisfied. 
+
+~\ 
+
+[VS6]:  Note that $\forall v_1+W\in S, \forall a,b \in \mathbb{F},$ $$(ab)(v_1+W)=ab\cdot v_1+W=a(b\cdot v_1 +W)=a(b(v_1+W)).$$
+
+Therefore, VS6 is satisfied. 
+
+~\ 
+
+[VS7]: Note that $\forall v_1+W, v_2+W\in S, \forall a \in \mathbb{F},$ 
+
+$a(v_1+W+(v_2+W))=a((v_1+v_2)+W)=(av_1+av_2)+W=av_1+W + (av_2+W)=a(v_1+W)+a(v_2+W).$
+
+Therefore, VS7 is satisfied. 
+
+~\ 
+
+[VS8]: Note that $\forall v+W\in S, \forall a,b \in \mathbb{F},$ $$(a+b)(v+W)=(a+b)v+W=(av+bv)+W=av+W+(bv+W)=a(v+W)+b(v+W).$$
+
+Therefore, VS8 is satisfied. 
+
+Hence, S is proved to be a vector space with operations defined in (c). 
+
+~\ 
+
+\section{Section 1.4 Q10}
+
+Note that the set of all symmetric 2 by 2 matrices is 
+$S=\{\begin{pmatrix}
+    a & b
+    \\b & c
+\end{pmatrix}: a,b,c\in \mathbb{F}\}.$ 
+
+Note that $\forall \begin{pmatrix}
+    a & b
+    \\b & c
+\end{pmatrix}\in S,$ $$\begin{pmatrix}
+    a & b
+    \\b & c
+\end{pmatrix} = aM_1+bM_3+cM_2.$$ 
+
+Hence $S \subset Span\{M_1,M_2,M_3\}.$ 
+
+~\ 
+
+Also note that $\forall x \in Span\{M_1,M_2,M_3\},$ $\exists a_1,a_2,a_3 \in \mathbb{F}$ such that $$a_1M_1+a_2M_2+a_3M_3=x.$$
+
+Observe that $$x=\begin{pmatrix}
+    a_1 & a_3
+    \\a_3 & a_2
+\end{pmatrix}.$$ 
+
+By the definition of $S$, $x \in S.$ Therefore $ Span\{M_1,M_2,M_3\} \subset S,$ which deduces $$S=Span\{M_1,M_2,M_3\}.$$
+
+~\ 
+
+\section{Section 1.4 Q14}
+
+Note that $\forall x \in Span(S_1 \cup S_2),$ $\exists a_1,a_2,...,a_m,b_1,b_2,...,b_n \in \mathbb{F}$ and $u_1,u_2,...,u_m \in S_1, v_1,v_2,...,v_m \in S_2$ such that $$x=a_1u_1+...a_mu_m+b_1v_1+...b_nv_n.$$
+
+Note that $a_1u_1+...a_mu_m \in Span(S_1)$ and $b_1v_1+...b_nv_n \in Span(S_2).$ Which implies $$x=a_1u_1+...a_mu_m+b_1v_1+...b_nv_n \in Span(S_1)+Span(S_2).$$ 
+
+Hence $ Span(S_1 \cup S_2) \subset Span(S_1)+Span(S_2).$ 
+
+~\ 
+
+Note that $\forall y \in Span(S_1)+Span(S_2)$, $\exists a_1,a_2,...,a_m,b_1,b_2,...,b_n \in \mathbb{F}$ and $u_1,u_2,...,u_m \in S_1, v_1,v_2,...,v_m \in S_2$ s.t. $$y=a_1u_1+...a_mu_m+b_1v_1+...b_nv_n.$$
+
+That $y$ is a linear combination fo elements in $Span(S_1 \cup S_2).$ Hence $y \in Span(S_1 \cup S_2).$ 
+
+Therefore $Span(S_1)+Span(S_2) \subset Span(S_1 \cup S_2).$ Which deduces $$Span(S_1)+Span(S_2) = Span(S_1 \cup S_2).$$
+
+~\ 
+
+\section{Section 1.4 Q15}
+
+Note that $\forall x\in Span(S_1 \cap S_2),$ $\exists a_1,a_2,...,a_m \in \mathbb{F}$ and $u_1,u_2,...,u_m \in S_1 \cap S_2$ such that $$x=a_1u_1+...+a_mu_m.$$ 
+
+Note that $u_i \in S_1, \forall i$ and $u_i \in S_2, \forall i.$ Then $x \in Span(S_1)$ and $x \in Span(S_2).$ That is $x \in Span(S_1) \cap Span(S_2).$ Which deduces that $$Span(S_1 \cap S_2) \subset Span(S_1) \cap Span(S_2).$$
+
+~\ 
+
+Let $S_1=\{(1,0,0),(1,1,0)\}$ and $S_2=\{(0,0,1),(0,1,1)\}.$ Note that $Span(S_1 \cap S_2)=\emptyset$ while $$Span(S_1) \cap Span(S_2)=\{(0,\lambda,0),\lambda\in \mathbb{F}\}.$$
+
+Obviously, in this case, $Span(S_1 \cap S_2)$ and $Span(S_1) \cap Span(S_2)$ are not equal. 
+
+~\ 
+
+\section{Section 1.5 Q15}
+
+We first prove the "if" part.
+
+If $u_1=0$, note that $$1\cdot u_1+0\cdot u_2+...+0\cdot u_n=0.$$ 
+
+Hence $S=\{u_1,u_2,...,u_n\}$ is linear dependent. 
+
+If $u_{k+1}\in Span(\{u_1,u_2,...,u_k\})$ for some $k (1 \leq k<n).$ Then $\exists a_1,a_2,...,a_k$ such that $$u_{k+1}=a_1u_1+...+a_ku_k.$$
+
+Hence notice that $$a_1u_1+...+a_ku_k-u_{k+1}+...+0\cdot u_n=0.$$
+
+Hence $S=\{u_1,u_2,...,u_n\}$ is linear dependent. Thus the "if" direction is proved. 
+
+~\
+
+We then prove the "only if" part.
+
+Assume $S$ is linearly dependent. Suppose $u_1\neq 0$ and $\forall 1\leq k<n,$ $$u_{k+1}\notin Span(\{u_1,...,u_k\}).$$
+
+By the definition of $S$ being linear dependent, $\exists a_1,...,a_n$ (not all zero) such that $$0=a_1u_1+...a_nu_n.$$
+
+Which contradicts with $u_n \notin Span(\{u_1,...,u_n-1\})$ that we assumed. 
+
+Hence, $u_1= 0$ or $\exists 1\leq k<n,$ such that $u_{k+1}\in Span(\{u_1,...,u_k\})$ at the first place.
+
+~\ 
+
+\section{Section 1.5 Q18}
+
+Suppse $S$ is linearly dependent. Then $\exists$ distinct $u_1,u_2,...,u_n \in S$ and $a_1,...,a_n \in \mathbb{F}$ (not all zero) such that $$a_1u_1+...+a_nu_n=0.$$
+
+WLOG, let $a_1 \neq 0,$ and $u_1$ having the largest degree among those non-zero terms, denoted as $\deg(u_1).$
+
+If $\deg(u_1)>0$, then degree of the L.H.S. is $\deg(u_1) \neq \deg(0)=0.$ Contradiction arises. 
+
+Else if $\deg(u_1)=0,$ according to $u_1$ is having the largest degree and those polynomials do not have same degree. 
+
+Then the L.H.S.$=a_1u_1,$ which is a nonzero constant, hence not equal to 0 on R.H.S. Contradiction arises.
+
+Hence, S is linearly independent at the first place.
 
 
 
