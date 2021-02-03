@@ -198,25 +198,208 @@ Therefore the rank nullity theorem is verified.
 
 Note that $(1,1,1) \notin R(T)$, hence $T$ is not onto (surjective). 
 
-Also note that $N(T)={(0,0)},$ then $T$ is one to one (injective). 
+Also note that $N(T)={(0,0)},$ then $T$ is one-to-one (injective). 
 
 Done. 
 
 ~ \ 
 
+\section{Section 2.1, Q5}
+
+Note that $\forall f(x),g(x) \in P_2(\mathbb{R}),$ we have $$T(f(x)+g(x))=x(f(x)+g(x))+(f(x)+g(x))'=xf(x)+f'(x)+xg(x)+g'(x)=T(f(x))+T(g(x)).$$
+
+Also note that $\forall f(x)\in P_2(\mathbb{R}), \forall a\in \mathbb{R},$ $$T(af(x))=xaf(x)+af'(x)=aT(f(x)).$$
+
+Therefore, $T$ is linear. 
+
+Consider the $N(T),$ notice that $xf(x)+f'(x)=0$ does not hold if $f(x)$ is a nonzero polynomial, because the L.H.S. always have nonzero order. 
+
+Hence the nullspace of $T$ is only $\{f(x)=0\}.$ 
+
+And the basis for it is $\{f(x)=0\},\dim{\{f(x)=0\}}=0.$
+
+A basis for $R(T)$ is $\{x^3+2x,x,x^2+1\}$ and hence $\dim{\{x^3+2x,x,x^2+1\}}=3$. 
+
+Note that $\dim{R(T)}+\dim{N(T)}=0+3=\dim{P_2(\mathbb{R})}.$ Hence the rank nullity theorem is verified. 
+
+Note that $N(T)=0,$ then $T$ is one-to-one (injective). 
+
+Also note that $h(x)=2x^3+x^2+5x+1 \in P_3(\mathbb{R})$ but $h(x)\notin R(T).$ Hence $T$ is not an onto (surjective). 
+
+Done. 
+
+~\ 
 
 
+\section{Section 2.1, Q14}
+
+\subsection{(a)}
+
+We prove the "only if" direction first. Suppose $T$ is injective. Then suppose $\exists$ a linearly independent subset $S \subset V$ such that $T(S)$ is not linearly independent.
+
+Write $S=\{s_1,s_2,...,s_n\}.$ Then $T(S)=\{T(s_1),T(s_2),...,T(s_n)\},$ since $T(S)$ is linearly dependent. Then $\exists a_1,a_2,...,a_n \in F$ such that $$a_1T(s_1)+a_2T(s_2)+...a_nT(s_n)=0.$$
+
+That is $$T(a_1s_1+a_2s_2+...a_ns_n)=0.$$
+
+Recall that $T$ is injective, then the $N(T)$ contains only the zero vector. Then $a_1s_1+a_2s_2+...a_ns_n$ is the zero vector, which contradicts with the assumption that $S$ is linearly independent.
+
+Therefore $\forall$ linearly independent subset $S \in V$, $T(S)$ is also linearly independent. 
+
+~\ 
+
+Then we prove the "if" part. Hence we are given that $\forall$ linearly independent subset $S \in V$, $T(S)$ is linearly independent follows.
+
+Suppose $T$ is not one-to-one, then $\exists u\in V$ $(u\neq 0_V)$ such that $T(u)=0_W.$ 
+
+Consider a set $\{u\},$ which is a singleton with a nonzero element, hence linearly independent, but $1\cdot T(u)=0_W,$ which contradicts with our assumption that $\forall$ linearly independent subset $S \in V$, $T(S)$ is linearly independent follows. 
+
+Q.E.D.
+
+~\
+
+\subsection{(b)}
+
+Note that from (a), the "only if" part of this question is proved directly. What remains to be proved is that if $T(S)$ is linearly independent, then $S$ is linearly independent. 
+
+Write $S=\{s_1,s_2,...,s_n\}$
+
+Suppose not, suppose $S$ is linearly dependent, then $\exists a_1,a_2,...,a_n$ (not all zero) such that $$a_1s_1+a_2s_2+...+a_ns_n=0.$$
+
+Then $0_W=T(a_1s_1+a_2s_2+...+a_ns_n)=a_1T(s_1)+...+a_nT(s_n).$ Which implies that $T(S)$ is linearly dependent, contradicts with our assumption. Hence $S$ is linearly independent at the first place.
+
+Q.E.D. 
 
 ~ \ 
 
+\subsection{(c)}
 
-The remaining questions will be handled in handwriting. 
+Since $\beta=\{v_1,v_2,...,v_n\}$ is a basis, it is linearly independent. 
+
+Suppose $T(\beta)=\{T(v_1),T(v_2),...,T(v_n)\}$ is linearly dependent, then $\exists a_1,...,a_n$ (not all zeros) such that $$a_1T(v_1)+...+a_nT(v_n)=0.$$
+
+Which implies $T(a_1v_1+...+a_nv_n)=0.$ By $T$ is one-to-one, $a_1v_1+...+a_nv_n=0,$ which contradicts with our assumption that $\beta$ is linearly independent.
+
+Hence $T(\beta)$ is linearly independent.
+
+What remains to prove is that $W\subset span{T(\beta)}.$ 
+
+Since $T$ is surjective, then $\forall w\in W, \exists v\in V$ such that $w=T(v).$ 
+
+And $\exists b_1,...,b_n $ such that $$v=b_1v_1+...+b_nv_n.$$ 
+
+Therefore, $$w=T(b_1v_1+...+b_nv_n)=b_1T(v_1)+...+b_nT(v_n)\in span{T(\beta)}.$$ 
+
+Then we proved that $T(\beta)$ is a basis for W.
+
+Q.E.D. 
+
+~\ 
 
 
 
+\section{Section 2.1, Q17}
+
+\subsection{(b)}
+
+By the rank-nullity theorem, we have $$\dim{N(T)}+\dim{R(T)}=\dim{V}.$$ 
+
+Which implies $\dim{N(T)}=\dim{V}-\dim{R(T)}.$
+
+Recall that $\dim{R(T)}\leq\dim{W},$ then $-\dim{R(T)}\geq-\dim{W}.$ 
+
+Therefore, $\dim{N(T)}=\dim{V}-\dim{R(T)}\geq \dim{V}-\dim{W}>0.$ 
+
+Note that being one-to-one requires that $\dim{N(T)}=0.$ Hence in this case, $T$ cannot be one-to-one.
+
+Q.E.D. 
+
+~\ 
+
+\subsection{(a)}
+
+Note that $T$ is onto iff $R(T)=W.$ Which implies $\dim{R(T)}=\dim{W}.$ This is impossible to achieve since $$\dim{R(T)}=\dim{V}-\dim{N(T)}<\dim{W}-\dim{N(T)}.$$ 
+
+Hence $T$ cannot be onto. 
+
+Q.E.D. 
+
+~\ 
 
 
+\section{Section 2.1, Q21}
 
+\subsection{(a)}
+
+$\forall a=(a_0,a_1,...),b=(b_0,b_1,...)\in V, \forall c \in F,$ we have $$T(a+b)=T(a_0+b_0,...)=(a_1+b_1,a_2+b_2,...)=(a_1,a_2,...)+(b_1,b_2,...)=T(a)+T(b).$$
+
+And $$T(ca)=(ca_1,ca_2,...)=c(a_1,a_2,...)=cT(a).$$ 
+
+Therefore $T$ is linear. 
+
+$\forall a=(a_0,a_1,...),b=(b_0,b_1,...)\in V, \forall c \in F,$ we have $$U(a+b)=U(a_0+b_0,...)=(0,a_0+b_0,a_1+b_1,...)=(0,a_0,a_1,...)+(0,b_0,b_1,...)=U(a)+U(b).$$
+
+And $$U(ca)=(ca_0,ca_1,...)=c(a_0,a_1,...)=cU(a).$$ 
+
+Therefore $U$ is linear. 
+
+Q.E.D. 
+
+~\ 
+
+\subsection{(b)}
+
+Note that $\forall w \in V, \exists (1,w)\in V$ such that $$T((1,w))=w.$$ 
+
+Therefore $T$ is surjective. 
+
+Also note that $T((1,1,0,...))=T((0,1,0,...))=(1,0,...)$ (the ... part are all zeros) 
+
+Therefore $T$ is not one-to-one, not injective. 
+
+Q.E.D. 
+
+~\ 
+
+\subsection{(c)}
+
+$\forall x,y\in V$ with $x \neq y$, we have $U(x)=(0,x)$ and $U(y)=(0,y).$ 
+
+$U(x)\neq U(y)$ follows since $x\neq y. $ Therefore, $U$ is one-to-one. 
+
+Also note that $(1,0,0,0,...)\in V$ (the ... part are all zeros) but obviously it does not inside the range of $U$. 
+
+Hence $U$ is not onto. 
+
+Q.E.D.
+
+~ \ 
+
+\section{Section 2.1, Q22}
+
+\subsection{$T:\mathbb{R}^3 \to \mathbb{R}$}
+
+Denote $a=T((1,0,0)),b=T((0,1,0)),c=T((0,0,1)).$ Then $\forall (x,y,z)\in \mathbb{R}^3$ we have $$T(x,y,z)=T(x(1,0,0)+y(0,1,0)+z(0,0,1))=ax+by+cz.$$
+
+Which is what the question wanted. 
+
+\subsection{$T:F^n \to F$}
+
+To generate it to $F^n \to F,$ we need to first find a basis. 
+
+Take the set $\{e_i,i=1,2,...n\}$ be the basis, where $e_i=(0,...1,...0)$ where the 1 is sloted at the i-th entry. 
+
+Denote $T(e_i)=a_i.$ Then $\forall (x_1,x_2,...,x_n)\in F^n,$ $$T(x_1,x_2,...,x_n)=T(x_1e_1+x_2e_2+...+x_ne_n)=a_1x_1+a_2x_2+...+a_nx_n.$$
+
+That's it. 
+
+\subsection{$T:F^n \to F^m$}
+
+Statement: $\exists u_1,u_2,...,u_n \in F^m$ such that $\forall (x_1,x_2,...,x_n)\in F^n,$ we have $$T((x_1,x_2,...,x_n))=x_1u_1+x_2u_2+...+x_nu_n.$$
+
+
+Proof: denote $T(e_i)=u_i,$ then $\forall (x_1,x_2,...,x_n)\in F^n$, we have $$T((x_1,x_2,...,x_n))=T(x_1e_1+...+x_ne_n)=x_1u_1+x_2u_2+...+x_nu_n.$$
+
+Q.E.D.
 
 
 \end{document}
