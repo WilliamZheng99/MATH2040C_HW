@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}%
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.2cm, right=2.2cm]%
+{geometry}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage{stfloats}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+\setcounter{MaxMatrixCols}{30}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+\usepackage{mathtools}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\begin{document}
+
+\title{MATH2040C Homework 3}
+\author{ZHENG Weijia (William, 1155124322)}
+\date{\today}
+\maketitle
+
+
+
+\section{Section 2.2, Q3}
+
+According to the question, $\beta=\{(1,0),(0,1)\}.$
+
+Therefore, $T((1,0))=(1,1,2),T((0,1))=(-1,0,1).$ 
+
+Then we need to find $[T((1,0))]_\gamma=[(1,1,2)]_\gamma$ and $[T((0,1))]_\gamma=[(-1,0,1)]_\gamma.$
+
+By the question, $\gamma = \{(1,1,0),(0,1,1),(2,2,3)\}.$ 
+
+Note that $\begin{pmatrix}1\\1\\2 \end{pmatrix}=\begin{pmatrix}1 & 0 & 2\\1 & 1& 2\\0&1&3\end{pmatrix} \begin{pmatrix} -\frac{1}{3}\\0\\\frac{2}{3} \end{pmatrix}. $
+
+Hence $[T((1,0))]_\gamma=[(1,1,2)]_\gamma=(-\frac{1}{3},0,\frac{2}{3}).$ 
+
+Also note that $\begin{pmatrix}-1\\0\\1 \end{pmatrix}=\begin{pmatrix}1 & 0 & 2\\1 & 1& 2\\0&1&3\end{pmatrix} \begin{pmatrix} -1\\1\\0 \end{pmatrix}. $
+
+Therefore, $[T]_\beta^{\gamma}=\begin{pmatrix}-\frac{1}{3} & -1\\0 & 1\\\frac{2}{3} &0\end{pmatrix}.$ 
+
+~\ 
+
+Note that $\alpha=\{(1,2),(2,3)\}.$ And $T(1,2)=(-1,1,4)$ and $T(2,3)=(-1,2,7).$ Then we will find $[(-1,1,4)]_\gamma$ and $[-1,2,7]_\gamma.$
+
+Note that $\begin{pmatrix}-1\\1\\4 \end{pmatrix}=\begin{pmatrix}1 & 0 & 2\\1 & 1& 2\\0&1&3\end{pmatrix} \begin{pmatrix} -\frac{7}{3}\\2\\\frac{2}{3} \end{pmatrix}.$
+
+Hence $[T(1,2)]_\gamma = [(-1,1,4)]_\gamma = (-\frac{7}{3},2,\frac{2}{3}).$
+
+Also note that $\begin{pmatrix}-1\\2\\7 \end{pmatrix}=\begin{pmatrix}1 & 0 & 2\\1 & 1& 2\\0&1&3\end{pmatrix} \begin{pmatrix} -\frac{11}{3}\\3\\\frac{4}{3} \end{pmatrix}.$ 
+
+Hence $[T(2,3)]_\gamma = [(-1,2,7)]_\gamma = (-\frac{11}{3},3,\frac{4}{3}).$
+
+Therefore, $[T]_\alpha^{\gamma}=\begin{pmatrix}-\frac{7}{3} & -\frac{11}{3} \\2 & 3\\\frac{2}{3} &\frac{4}{3}\end{pmatrix}.$ 
+
+Done.
+
+~\ 
+
+\section{Section 2.2, Q5}
+
+
+
+
+\end{document}
