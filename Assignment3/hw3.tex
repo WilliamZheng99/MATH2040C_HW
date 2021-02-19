@@ -90,6 +90,101 @@ Done.
 
 \section{Section 2.2, Q5}
 
+\subsection{(a)}
+
+Note that $\alpha=\{\begin{pmatrix} 1& 0 \\0 & 0\end{pmatrix},\begin{pmatrix} 0& 1 \\0 & 0\end{pmatrix},\begin{pmatrix} 0 & 0 \\1 & 0\end{pmatrix},\begin{pmatrix} 0& 0 \\0 & 1\end{pmatrix}\}.$ Hence $$[T]_\alpha=[\begin{pmatrix}1&0\\0&0\end{pmatrix},\begin{pmatrix}0&0\\1&0\end{pmatrix},\begin{pmatrix}0&1\\0&0\end{pmatrix},\begin{pmatrix}0&0\\0&1\end{pmatrix}]_\alpha=\begin{pmatrix}1&0&0&0\\0&0&1&0\\0&1&0&0\\0&0&0&1\end{pmatrix}.$$
+
+\subsection{(b)}
+
+$[T]_\beta^{\alpha}=[T(1),T(x),T(x^2)]_{\alpha}=[\begin{pmatrix}0&2\\0&0\end{pmatrix},\begin{pmatrix}1&2\\0&0\end{pmatrix},\begin{pmatrix}0&2\\0&2\end{pmatrix}]_\alpha=\begin{pmatrix}0&1&0\\2&2&2\\0&0&0\\0&0&2\end{pmatrix}.$
+
+\subsection{(c)}
+
+The basis $\alpha=\{\begin{pmatrix}1&0\\0&0\end{pmatrix},\begin{pmatrix}0&1\\0&0\end{pmatrix},\begin{pmatrix}0&0\\1&0\end{pmatrix},\begin{pmatrix}0&0\\0&1\end{pmatrix}\}.$
+
+$[T]_\alpha^{\gamma}=[tr \begin{pmatrix}1&0\\0&0\end{pmatrix},tr \begin{pmatrix}0&1\\0&0\end{pmatrix}, tr \begin{pmatrix}0&0\\1&0\end{pmatrix}, tr \begin{pmatrix}0&0\\0&1\end{pmatrix}]_\gamma=[1,1,1,1]_\gamma=\begin{pmatrix}1&1&1&1\end{pmatrix}.$
+
+\subsection{(d)}
+
+Recall that $\beta=\{1,x,x^2\}.$ 
+
+$[T]_\beta^{\gamma}=[T(1),T(x),T(x^2)]_\gamma=\begin{pmatrix}1&2&4\end{pmatrix}.$
+
+\subsection{(e)}
+
+The basis $\alpha=\{\begin{pmatrix}1&0\\0&0\end{pmatrix},\begin{pmatrix}0&1\\0&0\end{pmatrix},\begin{pmatrix}0&0\\1&0\end{pmatrix},\begin{pmatrix}0&0\\0&1\end{pmatrix}\}.$
+
+Because $A=\begin{pmatrix}1&-2\\0&4\end{pmatrix}$, then $$[A]_\alpha=\begin{pmatrix}1\\-2\\0\\4\end{pmatrix}.$$
+
+\subsection{(f)}
+
+Note that $f(x)=3-6x+x^2.$ Therefore $$[f(x)]_\beta=\begin{pmatrix}3\\-6\\1\end{pmatrix}.$$
+
+\subsection{(g)}
+
+$\forall a\in F,$, $[a]_\gamma=a.$
+
+~\ 
+
+\section{Section 2.3, Q3}
+
+\subsection{(a)}
+
+$[U]_\beta^{\gamma}=[U(1),U(x),U(x^2)]_\gamma=[(1,0,1),(1,0,-1),(0,1,0)]_\gamma=\begin{pmatrix}1&1&0\\0&0&1\\1&-1&0\end{pmatrix}.$
+
+$[T]_\beta=[T(1),T(x),T(x^2)]_\beta=[2,3+3x,6x+4x^2]_\beta=\begin{pmatrix}2&3&0\\0&3&6\\0&0&4\end{pmatrix}.$
+
+And $[UT]_\beta^{\gamma}=[UT(\beta)]_\gamma=[U(2),U(3+3x),U(6x+4x^2)]_\gamma$ 
+
+$[UT]_\beta^{\gamma}=[(2,0,2),(6,0,0),(6,4,-6)]_\gamma=\begin{pmatrix}2&6&6\\0&0&4\\2&0&-6\end{pmatrix}.$
+
+Verify that $$[UT]_\beta^{\gamma}=\begin{pmatrix}2&6&6\\0&0&4\\2&0&-6\end{pmatrix}=\begin{pmatrix}1&1&0\\0&0&1\\1&-1&0\end{pmatrix}\begin{pmatrix}2&3&0\\0&3&6\\0&0&4\end{pmatrix}=[U]_\beta^{\gamma}[T]_\beta.$$
+
+Done.
+
+\subsection{(b)}
+
+Because $h(x)=3-2x+x^2.$ $[h(x)]_\beta=[3-2x+x^2]=\begin{pmatrix}3\\-2\\1\end{pmatrix}.$
+
+$[U(h(x))]_\gamma=[U(3-2x+x^2)]_\gamma=[(1,1,5)]_\gamma=\begin{pmatrix}1\\1\\5\end{pmatrix}.$
+
+Note that $$[U(h(x))]_\gamma=\begin{pmatrix}1\\1\\5\end{pmatrix}=\begin{pmatrix}1&1&0\\0&0&1\\1&-1&0\end{pmatrix}\begin{pmatrix}3\\-2\\1\end{pmatrix}=[U]_\beta^{\gamma}[h(x)]_\beta.$$
+
+Hence the theorem 2.14 is verified.
+
+Done.
+
+~\ 
+
+\section{Section 2.3, Q16}
+
+\subsection{(a)}
+
+Note that $T:V \to V.$ And $T^2:V \to V.$
+
+Given that $rank(T)=rank(T^2).$ By rank-nullity theorem, $$rank(T)+nullity(T)=\dim{V}.$$
+
+Also by rank-nullity theorem, $$rank(T^2)+nullity(T^2)=\dim{V}.$$
+
+Hence $nullity(T^2)=nullity(T).$
+
+It is obvious that $\forall x\in N(T),T^2(x)=T(T(x))=T(0_V)=0_V.$
+
+Hence $N(T) \subset N(T^2).$
+
+~\ 
+
+Suppose that $\exists y \in N(T^2)$ such that $T(y)=0_V.$ Then $\dim{N(T^2)}>\dim{N(T)}.$
+
+But $nullity(T)=\dim{V}-rank(T)=\dim{V}-rank(T^2)=nullity(T^2).$ Which arises contradiction.
+
+Hence $\forall y \in N(T^2), T(y)=0_V$ at the first place, then $$N(T)=\{0_V\}.$$
+
+Note that $0_V \in R(T),$ therefore $R(T) \cap N(T)=\{0_V\}.$ Which deduces that $$V=R(T)\bigoplus
+N(T).$$
+
+\subsection{(b)}
+
 
 
 
