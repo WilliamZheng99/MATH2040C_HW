@@ -109,7 +109,22 @@ Note that $$Q^{-1}AQ =\begin{pmatrix}1&0&0\\0&1&0\\0&0&0\end{pmatrix}.$$
 ~\ 
 
 \section{Section 5.1, Q4(e)}
+Let $\beta$ be the standard basis.
+Note that $[T]_{\beta}= \begin{pmatrix}0&0&0&1\\0&1&0&0\\0&0&1&0\\1&0&0&0\end{pmatrix}.$ By extracting its characteristic polynomial, it is $$f_{T}(t)=(t-1)^3(t+1)=0.$$
 
+And note that their corresponding eigenvectors to be $\{\begin{pmatrix}0\\1\\0\\0\end{pmatrix},\begin{pmatrix}0\\0\\1\\0\end{pmatrix},\begin{pmatrix}1\\0\\0\\1\end{pmatrix},\begin{pmatrix}1\\0\\0\\-1\end{pmatrix}\}.$
+
+Note that by the diagnoalizability of $[T]_\beta$, (for its every eigenvalues' algebraic multiplicity equals geometric multiplicity) we have $$\begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\end{pmatrix}=Q^{-1}[T]_\beta Q.$$
+
+Where $Q=\begin{pmatrix}0&0&-1&1\\-1&0&0&0\\0&1&0&0\\0&0&-1&-1\end{pmatrix}.$
+
+Regard Q as a change of basis matrix from another basis $\gamma$ to our known standard basis $\beta.$ Therefore, $Q=[I]_{\gamma}^{\beta}.$
+
+Let $\gamma=\{y_1,y_2,y_3,y_4\}.$ Therefore $$[y_1,y_2,y_3,y_4]_\beta =\begin{pmatrix}0&0&-1&1\\-1&0&0&0\\0&1&0&0\\0&0&-1&-1\end{pmatrix}. $$
+
+Hence, $y_1 = \begin{pmatrix} 0&-1\\0&0\end{pmatrix}$, $y_2 = \begin{pmatrix}0&0\\1&0\end{pmatrix}$, $y_3 = \begin{pmatrix} -1&0\\0&-1\end{pmatrix}$, $y_4 = \begin{pmatrix} 1&0\\0&-1\end{pmatrix}.$
+
+Note that $[T]_\gamma=\begin{pmatrix}0&0&-1&1\\-1&0&0&0\\0&1&0&0\\0&0&-1&-1\end{pmatrix}.$ So $\gamma$ is the ordered basis we need to find.
 
 
 
