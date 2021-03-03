@@ -137,6 +137,34 @@ Which is a diagnoal matrix. Hence the $\beta$ is what we want to find. And the e
 ~\ 
 
 \section{Section 5.1, Q17}
+\subsection{(a)}
+Note that for the identity matrix I, $T(I)=I=1\cdot I$, hence 1 is a eigenvalue. 
+Also note that for a matrix X with only 2 entries on the right top and left buttom being 1 and -1, then $$T(X)=-X.$$ Hence -1 is a eigenvalue.
+
+Suppose there exists some eigenvalue $|\lambda| \neq 1$ such that $$A^{T}=\lambda A.$$ Then we can deduce $\lambda A^{T}=A=\lambda^{2}A.$ Which implies $(1-\lambda^2)A=0.$ 
+
+Because A is regarded as an eigenvector, hence it is not zero, so $1-\lambda^2$ must be 0. But other than 1 and -1, it cannot be 0.
+
+Hence 1, -1 are the only eigenvalues of A.
+
+\subsection{(b)}
+
+For eigenvalue 1, the corresponding eigenvectors are all symmetric matrices. 
+
+For eigenvalue -1, the corresponding eigenvectors are all skew symmetric matrices.
+
+\subsection{(c)}
+Consider $\gamma=\{\begin{pmatrix} 1&0\\0&0\end{pmatrix}, \begin{pmatrix} 0&1\\0&0\end{pmatrix}, \begin{pmatrix} 0&0\\1&0\end{pmatrix}, \begin{pmatrix} 0&0\\0&1\end{pmatrix}\}.$
+
+Then $[T]_\gamma = \begin{pmatrix} 1&0&0&0\\0&0&1&0\\0&1&0&0\\0&0&0&1\end{pmatrix}.$
+
+Note that $$\begin{pmatrix} 1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\end{pmatrix}=Q^{-1}[T]_\gamma Q,$$ where $Q=\begin{pmatrix} 0&0&1&0\\0&1&0&1\\0&1&0&-1\\1&0&0&0\end{pmatrix}.$
+
+Where Q can be regarded as $[I]_{\beta}^{\gamma}.$ Let $\beta=\{v_1,v_2,v_3,v_4\}.$ $$[I]_{\beta}^{\gamma}=[v_1,v_2,v_3,v_4]_\gamma=[\begin{pmatrix} 0&0\\0&1\end{pmatrix},\begin{pmatrix} 0&1\\1&0\end{pmatrix},\begin{pmatrix} 1&0\\0&0\end{pmatrix},\begin{pmatrix} 0&1\\-1&0\end{pmatrix}].$$
+
+Hence the $\gamma$ is the basis we want.
+
+\subsection{(d)}
 
 
 
@@ -161,13 +189,27 @@ Note that $\det{(A)}=2\neq 0.$ And $\forall c\in \mathbb{C},$ $$\det{(A+cB)}=\de
 Therefore, A and A+cB are both invertible. 
 ~\ 
 
+
+
+
+
 \section{Section 5.2, Q3(c)}
 
 ~\ 
 
+
+
+
+
+
 \section{Section 5.2, Q8}
 
 ~\ 
+
+
+
+
+
 
 \section{Section 5.2, Q13}
 
