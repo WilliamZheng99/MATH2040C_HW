@@ -54,23 +54,64 @@
 
 \section{Section 5.1, Q2(e)}
 
+Given that $\beta = \{1-x+x^3,1+x^2,1,x+x^2\}.$ 
 
+And note that $T(1-x+x^3)=-1+x-x^3.$ $T(1+x^2)=-x-x^2+x^3.$ $T(1)=x^2.$ $T(x+x^2)=-x-x^2.$
 
+Hence $T(\beta)=\{-1+x-x^3,-x-x^2+x^3,x^2, -x-x^2\}.$
 
+$[T]_\beta =\begin{pmatrix}-1&1&0&0\\0&-1&1&0\\0&0&-1&0\\0&0&0&-1\end{pmatrix}.$
 
+Suppose $\beta$ is containing $T$'s eigenvectors, then $\exists \lambda \in F$ such that $$T(1+x^2)=\lambda(1+x^2).$$
 
+Then $\lambda + \lambda x^2 = -x-x^2+x^3.$ Note that the degree of them do not equal in any sense. 
+
+Hence $\beta$ is not a basis consisting of eigenvectors of $T.$
 
 ~\ 
 
 \section{Section 5.1, Q2(f)}
+Given that $\beta = \{\begin{pmatrix}1&0\\1&0\end{pmatrix},\begin{pmatrix}-1&2\\0&0\end{pmatrix},\begin{pmatrix}1&0\\2&0\end{pmatrix},\begin{pmatrix}-1&0\\0&2\end{pmatrix}\}.$
+
+Note that $T\begin{pmatrix}1&0\\1&0\end{pmatrix}=\begin{pmatrix}-3&0\\-3&0\end{pmatrix}=-3\begin{pmatrix}1&0\\1&0\end{pmatrix},$
+
+$T\begin{pmatrix}-1&2\\0&0\end{pmatrix}=\begin{pmatrix}-1&2\\0&0\end{pmatrix}=1\cdot \begin{pmatrix}-1&2\\0&0\end{pmatrix},$ 
+
+$T\begin{pmatrix}1&0\\2&0\end{pmatrix}=\begin{pmatrix}1&0\\2&0\end{pmatrix}=1\cdot \begin{pmatrix}1&0\\2&0\end{pmatrix},$ and 
+
+$T\begin{pmatrix}-1&0\\0&2\end{pmatrix}=\begin{pmatrix}-1&0\\0&2\end{pmatrix}=1\cdot \begin{pmatrix}-1&0\\0&2\end{pmatrix}.$
+
+Hence we deduce that $\beta$ is a basis consisting of eigenvectors of $T$.
 
 ~\ 
 
 \section{Section 5.1, Q3(d)}
+\subsection{(i)}
+Given that $A = \begin{pmatrix}2&0&-1\\4&1&-4\\2&0&-1\end{pmatrix}$, then its characteristic polynomial is $$f_{A}(t)=\det{\begin{pmatrix}2-t&0&-1\\4&1-t&-4\\2&0&-1-t\end{pmatrix}}=-t(t-1)^2.$$
+
+Observe the $f_{A}(t)$'s zeros, we have A should have 2 eigenvalues: 1 and 0.
+
+\subsection{(ii)}
+For eigenvalue 1, the corresponding eigenvectors should be in the span of set $$\{\begin{pmatrix}1\\0\\1\end{pmatrix},\begin{pmatrix}0\\1\\0\end{pmatrix}\}.$$
+
+For eigenvalue 0, the corresponding eigenvectors should be in the span of set $$\{\begin{pmatrix}1\\4\\2\end{pmatrix}\}.$$
+
+\subsection{(iii)}
+In this case, the $n=3, F = \mathbb{R}.$ So $F^3 = \mathbb{R}^3.$
+
+Note that $\{ \begin{pmatrix}1\\0\\1\end{pmatrix}, \begin{pmatrix}0\\1\\0\end{pmatrix}, \begin{pmatrix}1\\4\\2\end{pmatrix}     \}$ is a 3-linear-indenpendent set. Hence it is a basis of $\mathbb{R}^3.$ And by our conclusion above, these 3 vectors are eigenvectors of $A$.
+
+\subsection{(iv)}
+Let $Q=\begin{pmatrix}1&0&1\\0&1&4\\1&0&2\end{pmatrix}$. Note that $Q$ is invertible and $Q^{-1}=\begin{pmatrix}2&0&-1\\4&1&-4\\-1&0&1\end{pmatrix}.$ 
+
+Note that $$Q^{-1}AQ =\begin{pmatrix}1&0&0\\0&1&0\\0&0&0\end{pmatrix}.$$ 
 
 ~\ 
 
 \section{Section 5.1, Q4(e)}
+
+
+
 
 ~\ 
 
