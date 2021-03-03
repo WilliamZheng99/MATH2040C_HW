@@ -144,7 +144,21 @@ Which is a diagnoal matrix. Hence the $\beta$ is what we want to find. And the e
 ~\ 
 
 \section{Section 5.1, Q18}
+\subsection{(a)}
+If $A$ is not invertible, then let $c=0.$ We have $$\det{(A+cB)}=\det{A}=0.$$ Since $A$ is singular as we supposed.
 
+If $A$ is invertible, then note that $A = AB^{-1}B$, then $$\det{(A+cB)}=\det{AB^{-1}B+cB}=\det{(AB^{-1}+cI)}\det{(B)}.$$
+
+Note that $\det{(B)}\neq 0$ and $\det{(AB^{-1}+cI)}=0$ if $-c$ is the eigenvalue of $AB^{-1}$. And by the fundemantal theorem of algebra, there must exist such c.
+
+Done.
+
+\subsection{(b)}
+Let $A=\begin{pmatrix}2&1\\0&1\end{pmatrix}$ and $B=\begin{pmatrix}0&1\\0&0\end{pmatrix}.$
+
+Note that $\det{(A)}=2\neq 0.$ And $\forall c\in \mathbb{C},$ $$\det{(A+cB)}=\det{(\begin{pmatrix}2&1+c\\0&1\end{pmatrix})}=2\neq 0.$$
+
+Therefore, A and A+cB are both invertible. 
 ~\ 
 
 \section{Section 5.2, Q3(c)}
