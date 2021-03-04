@@ -224,11 +224,26 @@ Which only have one eigenvalue in $\mathbb{R}.$ Hence it only have not enough ei
 ~\ 
 
 
-
-
-
-
 \section{Section 5.2, Q8}
+
+$1\leq \gamma_{T}(\lambda_1) = \dim{(E_{\lambda_1})}=n-1.$ 
+
+$1\leq \gamma_{T}(\lambda_2) = \dim{(E_{\lambda_2})}.$
+
+Take $n-1$ orthogonal and eigenvectors from $E_{\lambda_1}$ denote them as $v_1,v_2,...,v_{n-1}.$
+
+And then take 1 eigenvector from $E_{\lambda_2}$, make it orthogonal to $v_1,v_2,...,v_{n-1}$ and denote it as $w.$
+
+Consider $Q= \begin{pmatrix}v_1 & v_2 & ... & v_n & w\end{pmatrix}.$ Note that $Q^{-1}=Q^{T}.$ 
+
+Because $Q^{T}Q=\begin{pmatrix}v_1 \\ v_2 \\ ... \\ v_n \\ w\end{pmatrix} \begin{pmatrix}v_1 & v_2 & ... & v_n & w\end{pmatrix}= I.$ Because every $v_i,w$ are orthogonal.
+
+Then, note that $$Q^{-1}AQ=Q^{T}[\lambda_1 v_1,\lambda_1 v_2,...,\lambda_1 v_{n-1}, \lambda_2 w ]=\begin{pmatrix}v_1 \\ v_2 \\ ... \\ v_n \\ w\end{pmatrix} [\lambda_1 v_1,\lambda_1 v_2,...,\lambda_1 v_{n-1}, \lambda_2 w ]$$.
+
+Which is that $Q^{-1}AQ=\begin{pmatrix} \lambda_1&0&...&0\\0&\lambda_1&...&...\\...&...&...&...\\0&...&...&\lambda_2 \end{pmatrix}.$
+
+Therefore, A is diagnoalizabile.
+
 
 ~\ 
 
