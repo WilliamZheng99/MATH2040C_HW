@@ -256,10 +256,31 @@ And $A^{T}=\begin{pmatrix}1&1\\2&0\end{pmatrix},$ while having a eigenvalue 2, i
 
 
 \subsection{(b)}
+$\forall \lambda$, where $\lambda$ is a eigenvalue of A (hence also an eigenvalue of $A^{T}$).
 
+We have $\dim{(E_\lambda)}=\dim{N(A-\lambda I)}=n-rank(A-\lambda I).$ 
 
+Note that $\forall $ matrix $M,$ we have $rank(M)=rank(M^{T}).$
 
+Then $rank((A-\lambda I)^{T})=rank(A^{T}-\lambda I).$ Then note that $$\dim{(E_\lambda)}=n-rank(A^{T}-\lambda I)=\dim{N(A^{T}-\lambda I)}=\dim{(E_{\lambda}')}.$$
+
+Done.
 
 ~\ 
+
+\subsection{(c)}
+If $A$ is diagnoalizabile, then $\forall 1\leq i \leq k$, A's eigenvalue $\lambda_i$'s algebraic multiplicity $m_i=\dim{(E_{\lambda_i})}.$
+
+Note that $A^{T}$ shares the same eigenvalues with $A$ and their characteristic polynomials are also the same. Hence all the $m_i$'s are still.
+
+By the result from (b), $$\dim{(E_{\lambda_i})}=\dim{(E_{\lambda_i}')}, \forall 1\leq i \leq k$$ where $E_{\lambda}'$ is the eigenspace of $\lambda_i$ of $A^{T}.$
+
+Then we have $$m_i=\dim{(E_{\lambda_i}')}, \forall 1\leq i \leq k.$$
+
+Hence $A^{T}$ is diagnoalizabile.
+
+
+
+
 
 \end{document}
