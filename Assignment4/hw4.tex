@@ -165,7 +165,23 @@ Where Q can be regarded as $[I]_{\beta}^{\gamma}.$ Let $\beta=\{v_1,v_2,v_3,v_4\
 Hence the $\gamma$ is the basis we want.
 
 \subsection{(d)}
+Note that for 1 as an eigenvalue, its corresponding eigenvectors are $$E_1 = \{e_{1ij},i\leq j\}.$$
 
+Where the $e_{1ij}$ are defined as a matrix with i-j's slot to be 1 and j-i's slot also being 1, while others remains 0.
+
+And for -1 as an eigenvalue, its corresponding eigenvectors are $$E_{-1} = \{e_{2ij},i<j\}.$$ Where $e_{2ij}$ is defined as a matrix with i-j's slot being 1 and j-i slot being -1.
+
+Then, take $\gamma=\{e_{ij},1\leq i,j \leq n\}.$ Take $[E_1, E_{-1}]_\gamma$ as a change of order matrix.
+
+If we regard the $E_1, E_{-1}$ as a basis of $M_{n \times n}(\mathbb{R})$, then we can regard $$[E_1, E_{-1}]_\gamma=[I(v_1),I(v_2),...,I(v_{n^2})]_\gamma.$$
+
+Note that the eigenvectors inside $E_1,E_{-1}$ are all linear indenpendent, and there are $\frac{n(n-1)}{2}+n + \frac{n(n-1)}{2}=n^2=\dim{M_{n \times n}(\mathbb{R})}.$ Hence $[E_1,E_{-1}]$ is a basis.
+
+Than note that $$\begin{pmatrix} \lambda_1&...&...&0\\0&\lambda_2&...&0\\...&...&...&...\\0&...&...&\lambda_n\end{pmatrix} = ([E_1,E_{-1}]_{\beta}^{\gamma})^{-1} [T]_{\gamma}[E_1,E_{-1}]_{\beta}^{\gamma}$$ where $|\lambda_i|=1, \forall i.$
+
+Deifine the $\beta = \{v_1,v_2,...,v_{n^2}\}=$ \{ every column of $ E_1, E_{-1}\}.$
+
+Hence the $\beta$ is the basis we want to find.
 
 
 
