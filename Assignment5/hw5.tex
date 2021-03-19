@@ -93,6 +93,65 @@ Done.
 
 \section{Section 5.4, Q19}
 
+According to the question, $A=\begin{pmatrix} 0&0&...&0&-a_0\\1&0&...&0&-a_1\\0&1&\dots&0&-a_2\\\dots&\dots&\dots&\dots&\dots\\0&0&...&0&-a_{k-2}\\0&0&\dots&1&-a_{k-1}\end{pmatrix}.$
+
+Hence its characteristic polynomial is $\det{(A-tI)}$, which is $$\det \begin{pmatrix} -t&0&...&0&-a_0\\1&-t&...&0&-a_1\\0&1&\dots&0&-a_2\\\dots&\dots&\dots&\dots&\dots\\0&0&...&-t&-a_{k-2}\\0&0&\dots&1&-a_{k-1}-t\end{pmatrix}$$
+
+We expand the massive matrix through the first column. 
+
+Then the value is $$-t \det \begin{pmatrix} -t&0&...&0&-a_0\\1&-t&...&0&-a_1\\0&1&\dots&0&-a_2\\\dots&\dots&\dots&\dots&\dots\\0&0&...&-t&-a_{k-2}\\0&0&\dots&1&-a_{k-1}-t\end{pmatrix}+(-1)\det \begin{pmatrix} 0&0&...&0&-a_0\\1&-t&\dots&0&-a_2\\\dots&\dots&\dots&\dots&\dots\\0&0&...&-t&-a_{k-2}\\0&0&\dots&1&-a_{k-1}-t\end{pmatrix}.$$ 
+
+Observe the second term recursively, we note that it is simply equal to $(-1)^k a_0.$
+
+We keep spliting determinants from the left term, then we have $$\det (A-tI)=(-t)^{k-2}\det \begin{pmatrix} -t&-a_{k-2}\\1&-a_{k-1}-t\end{pmatrix}+(-1)^k (a_0+a_1t+ a_2 t^2 + a_{k-3}t^{k-3}).$$
+
+$$=(-t)^{k-2}(t^2+ta_{k-1}+a_{k-2})+(-1)^k (a_0+a_1t+ a_2 t^2 + a_{k-3}t^{k-3}).$$
+
+$$=(-1)^{k}(t^k + t^{k-1}a_{k-1} + t^{k-2}a_{k-2})+(-1)^k (a_0+a_1t+ a_2 t^2 + a_{k-3}t^{k-3}).$$
+
+$$=(-1)^k (a_0 + a_1 t + a_2 t^2 +...a_{k-3}t^{k-3} +a_{k-2}t^{k-2}+a_{k-1}t^{k-1} + t^k ).$$
+
+Done.
+
+\section{Section 5.4, Q23}
+
+As suggested by the question, we would like to use Mathematical Induction to tackle this problem.
+
+Under the circumstance stated in the problem (note that those $v_i$'s are eigenvectors of T corresponding to distict eigenvalues), let mathematical statement $P(k)$ indicates that: 
+
+$P(k):$ If $v_1+v_2+v_3+\dots v_k \in W,$ then $\forall i=1,2,\dots k, v_i \in W.$ 
+
+We would prove the base case first: note that $P(1)$ holds trivially. 
+
+Hence we can suppose that $\exists$ an integer $h$ such that $P(k)$ holds.
+
+~\ 
+
+In order to prove $P(k+1)$ holds, we need to prove $w_1+w_2+w_3+\dots w_k + w_{k+1} \in W$ implies $\forall i=1,2,\dots k, k+1,  v_i \in W.$ Where $w_j$'s are all eigenvectors of T corresponding to distict eigenvalues.
+
+Suppose not, i.e., we suppose $\exists i=1,2,...,k,k+1$ such that $w_i \notin W$. 
+
+WLOG, we let $w_1 \notin W.$
+
+Note that the $P(k)$ holds, which implies that if $\exists i=1,2,...,k$ such that $w_i \notin W,$ then $w_1+w_2+\dots w_k \notin W.$
+
+Inspect $w_{k+1}$, if $w_{k+1}\in W,$ then $w_1+w_2+\dots w_k \notin W.$ Which is impossible, hence $w_{k+1} \notin W.$
+
+Repeating this process by grouping $w_1$ with other $k-1$ items among $w_2,w_3,...,w_{k+1},$ we can deduce that $$\forall i=1,2,...,k+1, w_{i} \notin W.$$
+
+As supposed $w_1+w_2+\dots w_k + w_{k+1} \in W.$ Hence $T(w_1+w_2+\dots w_k + w_{k+1} )\in W.$ 
+
+Which is $\sum_{i=1}^{k+1}\lambda_{i}w_i \in W$, subtract this with $w_1+...w_{k+1}$, we have $$\sum_{i=2}^{k+1}(\lambda_{i}-\lambda_1)w_{i} \in W.$$
+
+We let T affect on it and subtract the first term out. Keep doing this process on and on, we eventually get $$\prod_{i=1}^{k}(\lambda_{k+1}-\lambda_i) \cdot w_{k+1} \in W.$$
+
+Note that the $\lambda_i$'s are all distict, hence the coefficient is nonzero. Hence $w_{k+1} \in W.$
+
+Which is contradicting with $w_{k+1} \notin W.$
+
+Therefore, $\forall i=1,2,...,k,k+1$, $v_i \in W$ at the first place.
+
+Done.
 
 
 
