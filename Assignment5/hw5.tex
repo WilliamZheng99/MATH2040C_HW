@@ -158,6 +158,30 @@ Done.
 
 \section{Section 5.4, Q24}
 
+Let $T:V\to V$, and $W$ be any T-invariant subspace of $V$. 
+
+We choose the ordered basis for $V$ properly, such that each element in the order basis set $\beta$ is a eigenvector of $T$.
+
+Let $\beta = \{v_{1,1},v_{1,2},\dots v_{1,m_1},\dots v_{k,1},v_{k,2},\dots v_{k,m_k}\}.$ Let $m_1+m_2+\dots m_k =m.$
+
+Note that any (subspace of $V$)'s basis can be represented with elements from $\beta$. Then denote $W$'s basis set as $\gamma$.
+
+Let $\dim \gamma=l$, then we have $l\leq m.$ Where $\gamma = \{w_1,w_2,\dots w_l\}$, those $w_a$'s are equal to some $v_{i,j}.$
+
+WLOG, reorder $\gamma$ such that $\gamma=\{v_{1,1},\dots v_{1,q_1} , \dots v_{t,1},\dots v_{t,q_t}\}$. 
+
+Where $v_{j,1},v_{j,2},\dots v_{j,q_j}$ are all corresponding to eigenvalue $\lambda_j.$ 
+
+Therefore we have $q_1+\dots q_k =l.$ And the $q_i$ eigenvectors are corresponding to one distict eigenvalue.
+
+Note that here the $q_i$ are $\lambda_i$'s geometric multiplicities (because they are number of corresponding eigenvectors), then we can have $$\forall i=1,2,\dots k, \mu_{T_{W}}(\lambda_i)=\gamma_{T_{W}}(\lambda_i). $$
+
+Therefore, $T_W:W \to W$ must be diagnoalizable.
+
+Done.
+
+
+
 
 
 \end{document}
