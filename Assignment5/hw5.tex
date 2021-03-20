@@ -180,6 +180,76 @@ Therefore, $T_W:W \to W$ must be diagnoalizable.
 
 Done.
 
+\section{Section 7.1, Q7(a)}
+
+Note that $\forall x\in N(U),$ we have $$Ux=0.$$ 
+
+Therefore $$U\cdot Ux = U^2(x)=0.$$
+
+Hence $N(U) \subset N^2(U).$
+
+Suppose $\exists$ an integer $k\geq 1$ such that $N^{k}(U) \subset N^{k+1}(U).$
+
+Note that $\forall x \in N^{k}(U)$, $$U^{k+1}(x)=U\cdot U^{k}(x)=U(0)=0.$$
+
+Therefore $x \in N^{k+1}(U).$
+
+So, based on all above, we have $$N(U) \subset N^2(U) \subset N^3(U) \subset \dots \subset N^k(U) \subset N^{k+1}(U) \subset \dots .$$
+
+Done.
+
+\section{Section 7.1, Q7(c)}
+
+Note that $\dim V- rank(U^m)=\dim ker(U^m)$ and $\dim V- rank(U^{m+1})=\dim ker(U^{m+1})$ hold because of rank-nullity theorem.
+
+Under the condition of $rank(U^m)=rank(U^{m+1}),$ then $$\dim ker(U^m)=\dim ker(U^{m+1}).$$
+
+Recall that $ker (U^m) \subset ker(U^{m+1})$, then we can deduce that $ker(U^m)=ker(U^{m+1}).$
+
+
+~\ 
+
+Let's inspect our situation at this stage, now we have $ker(U^m)=ker(U^{m+1})$, and we want to go one more step: to prove $$ker(U^{m+1})=ker(U^{m+2}).$$
+
+Because $ker(U^{m+1}) \subset ker(U^{m+2}),$ we then have $$ker(U^{m+2}) = ker(U^{m+1}) \cup [ ker(U^{m+2}) - ker(U^{m+1})].$$
+
+It is suffice to prove that the set $ker(U^{m+2}) - ker(U^{m+1})$ is an empty set.
+
+
+~\ 
+
+
+Let $x \in ker(U^{m+2}) - ker(U^{m+1})$, then we have $$U^{m+1}x \neq 0,~ U^{m+2}x =0.$$
+
+Hence $U(U^{m+1}x)=0$ and $U^{m+1}x \in ker U$. And $U^{m+1}x \in R(U^{m+1}) \subset R(U^{m}).$
+
+$\therefore \exists y \in V$ such that $$U^{m}y=U^{m+1}x.$$
+
+Hence $U^{m+1}y=U(U^{m+1}x)=U^{m+2}x=0.$
+
+$\because ker(U^m)=ker(U^{m+1})  \therefore U^m y=0.$
+
+This implies that $ U^{m+1}x=0. $ This contradicts with the previous statement.
+
+Therefore $$ker(U^{m+1})=ker(U^{m+2}).$$
+
+By doing this repeatly, we can have $\forall k\geq m,$ $$ker(U^m)=ker(U^k).$$
+
+Done.
+
+\section{Section 7.1, Q7(b)}
+
+Using the result of (c), since $\forall k\geq m,$ $$ker(U^m)=ker(U^k).$$ Then we have $\forall k\geq m$, 
+$$rank(U^k)=\dim V - \dim ker(U^k) = \dim V - \dim ker(U^m)=rank(U^m).$$
+
+Done.
+
+\section{Section 7.1, Q7(d)}
+
+
+
+
+
 
 
 
