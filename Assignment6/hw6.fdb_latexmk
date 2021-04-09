@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1617972131 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1617972132
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1617972132 680 8d631ade2679a98f9b8be40536994fa6 ""
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1617972129 2853 2f92cf15d8393782df3c6085ace2b742 ""
+["pdflatex"] 1617972622 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1617972624
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1617972624 834 412478b5f9fe93793c42df7ae2074df9 ""
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1617972622 3269 a1c0bd70550d9eeda86c385c8ae78d1a ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -73,12 +73,13 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1617683666 2724734 cdc08b019e91c51159b5d6d66da729b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "hw6.aux" 1617972132 680 8d631ade2679a98f9b8be40536994fa6 "pdflatex"
-  "hw6.tex" 1617972129 2853 2f92cf15d8393782df3c6085ace2b742 ""
+  "hw6.aux" 1617972624 834 412478b5f9fe93793c42df7ae2074df9 "pdflatex"
+  "hw6.tex" 1617972622 3269 a1c0bd70550d9eeda86c385c8ae78d1a ""
   "img/Q1.png" 1617960806 31658 fbd250078b7578976c70fd20ad30a808 ""
+  "img/Q2.png" 1617972198 16394 1bf9d555cbc6734d6fc1fa6e403e0c86 ""
   (generated)
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.log"
   "hw6.log"
   "hw6.aux"
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf"
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.log"
   "hw6.pdf"
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf"
