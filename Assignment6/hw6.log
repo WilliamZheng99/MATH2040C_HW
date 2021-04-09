@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  9 APR 2021 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  9 APR 2021 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -191,11 +191,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box50
-) (/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux
-
-LaTeX Warning: Label `fig:figure1label' multiply defined.
-
-)
+) (/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux)
 \openout1 = `hw6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -274,37 +270,44 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/Q1.png, id=1, 640.3925pt x 140.525pt>
+<img/Q1.png, id=1, 668.4975pt x 170.6375pt>
 File: img/Q1.png Graphic file (type png)
 <use img/Q1.png>
 Package pdftex.def Info: img/Q1.png  used on input line 59.
-(pdftex.def)             Requested size: 455.24408pt x 99.8978pt.
+(pdftex.def)             Requested size: 455.24408pt x 116.2064pt.
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/wangyide/Desktop/MATH2040/Assignment6/img/Q1.png>]
-<img/Q2.png, id=18, 616.3025pt x 57.21375pt>
+<img/Q2.png, id=18, 677.53125pt x 57.21375pt>
 File: img/Q2.png Graphic file (type png)
 <use img/Q2.png>
-Package pdftex.def Info: img/Q2.png  used on input line 96.
-(pdftex.def)             Requested size: 426.79134pt x 39.62155pt.
- [2 </Users/wangyide/Desktop/MATH2040/Assignment6/img/Q2.png>] (/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+Package pdftex.def Info: img/Q2.png  used on input line 98.
+(pdftex.def)             Requested size: 426.79134pt x 36.04134pt.
+<img/Q3.png, id=19, 667.49374pt x 108.405pt>
+File: img/Q3.png Graphic file (type png)
+<use img/Q3.png>
+Package pdftex.def Info: img/Q3.png  used on input line 121.
+(pdftex.def)             Requested size: 426.79134pt x 69.31444pt.
+ [2 </Users/wangyide/Desktop/MATH2040/Assignment6/img/Q2.png> </Users/wangyide/Desktop/MATH2040/Assignment6/img/Q3.png>]
+<img/Q4.png, id=26, 673.51625pt x 121.45375pt>
+File: img/Q4.png Graphic file (type png)
+<use img/Q4.png>
+Package pdftex.def Info: img/Q4.png  used on input line 156.
+(pdftex.def)             Requested size: 426.79134pt x 76.96288pt.
+ [3 </Users/wangyide/Desktop/MATH2040/Assignment6/img/Q4.png>] (/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux) ) 
 Here is how much of TeX's memory you used:
- 3844 strings out of 478994
- 54970 string characters out of 5858185
- 354232 words of memory out of 5000000
- 21276 multiletter control sequences out of 15000+600000
+ 3855 strings out of 478994
+ 55102 string characters out of 5858185
+ 354185 words of memory out of 5000000
+ 21285 multiletter control sequences out of 15000+600000
  419188 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,74p,267b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf (2 pages, 110747 bytes).
+ 68i,8n,74p,272b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on /Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf (3 pages, 169655 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

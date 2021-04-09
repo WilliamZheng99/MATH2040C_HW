@@ -57,8 +57,8 @@
 \begin{figure}[htp]
     \centering % 图片居中
     \includegraphics[width = 16cm]{img/Q1.png}
-    \caption{Section 6.1 Q8}
-    \label{fig:figure1label}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
 \end{figure}
 
 \subsection{(a)}
@@ -90,12 +90,14 @@ Hence, this is not an inner product.
 
 Done.
 
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
 \section{Section 6.1, Q17}
 \begin{figure}[htp]
     %\centering % 图片居中
     \includegraphics[width = 15cm]{img/Q2.png}
-    \caption{Section 6.1 Q17}
-    \label{fig:figure1label}
+    %\caption{Section 6.1 Q17}
+    %\label{fig:figure1label}
 \end{figure}
 
 Note that because we have $||T(x)||=||x||.$ Then $\forall x\in V$, with $x\neq 0$ we have $$||T(x)||=||x||>0.$$
@@ -109,6 +111,54 @@ Hence $N(T)=\{0\}.$
 Hence, $T$ is one-to-one.
 
 Done.
+
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
+
+\section{Section 6.1, Q18}
+\begin{figure}[htp]
+    %\centering % 图片居中
+    \includegraphics[width = 15cm]{img/Q3.png}
+\end{figure}
+
+\subsection{If part}
+In the if part, we assume $T$ is one-to-one and try to prove $\langle\, \cdot , \cdot \rangle^{'}$ is an inner product.
+
+One-to-one implies $N(T)=\{0\}.$ Then $\forall x (\neq 0) \in V, T(x)\neq 0.$ Therefore $$\langle\, x, x \rangle^{'}=\langle\, T(x) , T(x) \rangle>0.$$
+Because $\langle\, \cdot , \cdot \rangle$ is an inner product.
+
+Also note that $\forall x,y,z \in V, \forall c \in F,$ $$\langle\, x+z , y \rangle^{'}=\langle\, T(x+z) , T(y) \rangle=\langle\, T(x)+T(z) , T(y) \rangle=\langle\, T(x) , T(y) \rangle + \langle\, T(z) , T(y) \rangle$$
+
+$$=\langle\,x , y \rangle^{'} + \langle\, z , y \rangle^{'}.$$
+
+Besides, $$\langle\, cx , y \rangle^{'}=\langle\, T(cx) , T(y) \rangle=\langle\, cT(x) , T(y) \rangle=c\langle\, T(x) , T(y) \rangle=c\langle\, x , y \rangle^{'}.$$
+
+And finally, $$\overline{\langle\, x , y \rangle^{'}}=\overline{\langle\, T(x) , T(y) \rangle}=\langle\, T(y) , T(x) \rangle=\langle\, y , x \rangle^{'}.$$
+
+Based on all above, $\langle\, \cdot , \cdot \rangle^{'}$ is an inner product.
+
+\subsection{Only if part}
+In the only if part, we have $\langle\, \cdot , \cdot \rangle^{'}$ is already an inner product and try to prove $T$ is injective.
+
+Note that $T$ is linear, then $T(0)=0$ must hold.
+
+Becasue $\forall x(\neq 0)\in V, \langle\, x , x \rangle^{'}=\langle\, T(x), T(x) \rangle>0.$ Therefore $\forall x\neq 0, T(x)\neq 0.$ 
+
+Therefore $N(T)=\{0\},$ follows that $T$ is injective.
+
+Done.
+
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
+\section{Section 6.1, Q19}
+\begin{figure}[htp]
+    %\centering % 图片居中
+    \includegraphics[width = 15cm]{img/Q4.png}
+\end{figure}
+
+
+
+
 
 
 \end{document}
