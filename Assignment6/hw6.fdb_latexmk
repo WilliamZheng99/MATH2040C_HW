@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1618044492 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1618044600
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1618044494 1524 9c2a4fbdb84f926ae8c267ce5f38dd4d ""
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1618044597 7126 839c717fcfa99a5a952d55c78dca1f4c ""
+["pdflatex"] 1618055001 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1618055003
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1618055002 1726 3dfb6d5ff2184d873c4e50ee30f41983 ""
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1618055000 9029 08c975c36cd4d62f4ab1daed6f2e7502 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -75,16 +75,17 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1617683666 2724734 cdc08b019e91c51159b5d6d66da729b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "hw6.aux" 1618044494 1524 9c2a4fbdb84f926ae8c267ce5f38dd4d "pdflatex"
-  "hw6.tex" 1618044597 7126 839c717fcfa99a5a952d55c78dca1f4c ""
+  "hw6.aux" 1618055002 1726 3dfb6d5ff2184d873c4e50ee30f41983 "pdflatex"
+  "hw6.tex" 1618055000 9029 08c975c36cd4d62f4ab1daed6f2e7502 ""
   "img/Q1.png" 1617974230 38478 4b563afe73b0e24e5ef31a9121ad261d ""
   "img/Q2.png" 1617974204 18576 efca8635bb6a138872c7c9c49b4fa257 ""
   "img/Q3.png" 1617974218 32016 c1c8cbf12ae3ba0348a4870e81ded692 ""
   "img/Q4.png" 1617975009 30114 7bb9ac1361ff73963d999bed4ced4cbc ""
   "img/Q5.png" 1618041724 58076 efcfcb2515397a78bd020a8e8c926b92 ""
+  "img/Q6.png" 1618054829 18302 6258f686ac66d2dfead7adca683d81e1 ""
   (generated)
-  "hw6.pdf"
   "hw6.log"
-  "hw6.aux"
   "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.log"
+  "hw6.aux"
+  "hw6.pdf"
   "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf"

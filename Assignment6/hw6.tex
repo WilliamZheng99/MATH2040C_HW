@@ -210,8 +210,51 @@ Therefore, $B=A^{*}.$
 Done.
 
 \subsection{(c)}
+Denote $\beta=\{v_1,v_2,\dots, v_n\}$ is a orthonormal basis as the problem said.
+Then $$Q:=(v_1,v_2,\dots,v_n).$$
 
+Therefore $$Q^{*}=\begin{pmatrix} - v_1 - \\ - v_2 - \\ - \dots -  \\ - v_n -\end{pmatrix}.$$
 
+Hence $$Q^{*}Q=\begin{pmatrix} 1&0&...&0 \\ 0 & 1&\dots &0 \\ \dots&\dots&\dots&\dots \\ 0&0&\dots&1 \end{pmatrix} = I_n.$$
 
+Therefore, $Q^{*}=Q^{-1}.$ Done.
+
+\subsection{(d)}
+Note that $$[U]_{\beta}=\begin{pmatrix} Uv_1& Uv_2& \dots & Uv_n \end{pmatrix}_{\beta}=\begin{pmatrix} A^{*}v_1 &A^{*}v_2&\dots A^{*}v_n \end{pmatrix}_{\beta}.$$
+
+And $$[T]_{\beta}^{*}=\begin{pmatrix} Tv_1 & Tv_2&\dots Tv_n \end{pmatrix}_\beta^{*}
+=\begin{pmatrix} Av_1& Av_2&\dots &Av_n \end{pmatrix}_\beta^*=[\begin{pmatrix} Av_1& Av_2&\dots &Av_n \end{pmatrix}^*]_\beta.$$
+
+Suffice to prove that $$\begin{pmatrix} A^{*}v_1 &A^{*}v_2&\dots A^{*}v_n \end{pmatrix}_\beta=\begin{pmatrix} Av_1& Av_2&\dots &Av_n \end{pmatrix}_\beta^*.$$
+
+Denote $Q=\begin{pmatrix}v_1&v_2&\dots&v_n\end{pmatrix}.$
+
+Iff $$\begin{pmatrix} A^{*}Q\end{pmatrix}_\beta=\begin{pmatrix}AQ\end{pmatrix}_\beta^{*}.$$
+
+Iff $$(A^{*})_\beta Q_\beta=(A_\beta Q_\beta)^*.$$
+
+Note that $Q_\beta$ is always $I_n$. Therefore it suffice to prove that $$(A^*)_\beta=(A_\beta)^*.$$
+
+Denote that the j-th column of $[A]_\beta$ is $\begin{pmatrix} a_{1j}\\a_{2j}\\\dots\\a_{nj} \end{pmatrix}$.
+
+I.e., $$[A_\beta]_{ij}=a_{ij}.$$
+
+Hence the j-th row of $A^{*}_\beta=\begin{pmatrix}a_{1j}^{*} & a_{2j}^{*} & \dots a_{nj}^{*} \end{pmatrix}.$ Hence $$[A_\beta^{*}]_{ij}=a_{ji}^{*}.$$
+
+Therefore $$(A_\beta)^*=(A^*)_\beta.$$
+
+Hence (d) is proved.
+
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
+\section{Section 6.2, Q2(g)}
+
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 15cm]{img/Q6.png}
+\end{figure}
+
+What I need to do is to 1. apply the G-S process to obtain a orthonormal basis.
+Compute Fourier coefficientt and use Theorem 6.5 to check.
 
 \end{document}
