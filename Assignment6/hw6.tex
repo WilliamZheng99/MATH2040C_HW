@@ -341,6 +341,76 @@ Therefore $\langle x,y \rangle \neq 0$ at the first place.
 
 \noindent\rule[0.1ex]{\linewidth}{1pt}
 
+\newpage
+\section{Section 6.2, Q10}
+\begin{figure}[htp]
+    \includegraphics[width = 13cm]{img/Q10.png}
+\end{figure}
+
+Inspect a orthonormal basis for $W$, denote it as $\{v_1,v_2,\dots, v_k\}$ and $W^{\perp}$'s (orthonormal basis) as 
+$\{v_{k+1},v_{k+2},\dots,v_n\}$. 
+
+Because these are basis, hence $\forall x \in V, \exists ! a_1,\dots,a_n$ such that 
+$$x=\sum_{i=1}^{n}a_iv_i=\sum_{i=1}^{k}a_iv_i+\sum_{j=k+1}^{n}a_jv_j.$$
+
+Then a feasible projection is $T(x)=\sum_{i=1}^{k}a_iv_i.$
+
+We now prove $N(T)=W^{\perp}.$ 
+
+$\forall x \in W^{\perp},$ $T(x)=0.$
+
+$\forall x \notin W^{\perp}, x\in V,$ there exists some (not all zero, otherwise $x\in W^{\perp}$) $b_1,\dots,b_k$ 
+such that $$T(x)=\sum_{i=1}^{k}b_iv_i\neq0.$$
+
+Therefore $N(T)=W^{\perp}.$
+
+Further, we prove that $\forall x \in V, ||T(x)||\leq||x||.$
+
+$\forall x \in W^{\perp}$, it has already been proved.
+
+$\forall x \notin W^{\perp},$ there exists unique $c_1,c_2,\dots,c_n$ such that 
+$$x=\sum_{i=1}^{n}c_1v_1.$$
+
+Therefore, $||x||=\sqrt{\sum_{i=1}^{n}c_i^2 }$ (because $\{v_1,v_2,\dots,v_n\}$ is orthonormal)
+
+Then notice that $T(x)==\sum_{i=1}^{k}c_1v_1$ from our construction of $T.$
+
+Hence $||T(x)||=\sqrt{\sum_{i=1}^k c_i^2}$. 
+
+Note that $k \leq n,$ then $||T(x)||\leq ||x||$ follows naturally.
+
+Done.
+
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
+
+\newpage
+
+\section{Section 6.2, Q15}
+\begin{figure}[htp]
+    \includegraphics[width = 14cm]{img/Q15.png}
+\end{figure}
+
+\subsection{(a)}
+$$\langle x , y  \rangle =\langle \sum_{i=1}^{n}\langle x,v_i\rangle v_i ,\sum_{j=1}^{n}\langle y,v_j\rangle v_j\rangle$$
+$$=\sum_{i=1}^{n} \sum_{j=1}^{n} \langle \langle x,v_i\rangle v_i  , \langle y,v_j\rangle v_j \rangle
+=\sum_{i=1}^{n} \langle \langle x,v_i\rangle v_i  , \langle y,v_i\rangle v_i \rangle$$
+$$=\sum_{i=1}^{n} \langle x,v_i\rangle \overline{\langle y,v_i\rangle} \langle v_i,v_i\rangle
+=\sum_{i=1}^{n} \langle x,v_i\rangle \overline{\langle y,v_i\rangle}.$$
+
+\subsection{(b)}
+What we need to prove is that $\sum_{i=1}^n \langle x,v_i\rangle \overline{\langle y,v_i\rangle}=\langle [x]_\beta , [y]_\beta \rangle'.$
+
+Inspecting the R.H.S., $([x]_\beta)_j=\langle x,v_j\rangle$ and $([y]_\beta)_j=\langle y,v_j\rangle.$
+
+Therefore $\langle [x]_\beta , [y]_\beta \rangle'=\sum_{j=1}^{n} ([x]_\beta)_j \cdot \overline{([y]_\beta)_j}=\sum_{i=1}^{n} \langle x,v_j\rangle \cdot \overline{\langle y,v_j\rangle}.$
+
+Hence $L.H.S.=R.H.S..$
+
+Done.
+
+
+
 
 
 \end{document}
