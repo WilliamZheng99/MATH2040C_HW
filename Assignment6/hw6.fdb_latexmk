@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1617975086 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1617975088
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1617975087 940 dfa220b59accd42893e7d17b4c33dc8e ""
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1617975085 5128 5949f3a7f798b759d239542b8e587666 ""
+["pdflatex"] 1618040339 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1618040341
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1618040340 1132 79811e5c366e4b256b6013734b81f87f ""
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1618040339 6402 a04ff9ad2244b72c924813e06f7bade3 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -74,15 +74,15 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1617683666 2724734 cdc08b019e91c51159b5d6d66da729b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "hw6.aux" 1617975087 940 dfa220b59accd42893e7d17b4c33dc8e "pdflatex"
-  "hw6.tex" 1617975085 5128 5949f3a7f798b759d239542b8e587666 ""
+  "hw6.aux" 1618040340 1132 79811e5c366e4b256b6013734b81f87f "pdflatex"
+  "hw6.tex" 1618040339 6402 a04ff9ad2244b72c924813e06f7bade3 ""
   "img/Q1.png" 1617974230 38478 4b563afe73b0e24e5ef31a9121ad261d ""
   "img/Q2.png" 1617974204 18576 efca8635bb6a138872c7c9c49b4fa257 ""
   "img/Q3.png" 1617974218 32016 c1c8cbf12ae3ba0348a4870e81ded692 ""
   "img/Q4.png" 1617975009 30114 7bb9ac1361ff73963d999bed4ced4cbc ""
   (generated)
-  "hw6.pdf"
-  "hw6.log"
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf"
   "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.log"
+  "hw6.pdf"
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf"
   "hw6.aux"
+  "hw6.log"

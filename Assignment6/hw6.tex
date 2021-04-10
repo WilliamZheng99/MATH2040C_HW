@@ -11,6 +11,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{indentfirst}
+
 \setlength{\parindent}{2em}
 \setcounter{MaxMatrixCols}{30}
 \newtheorem{theorem}{Theorem}
@@ -156,7 +157,35 @@ Done.
     \includegraphics[width = 15cm]{img/Q4.png}
 \end{figure}
 
+\subsection{(a)}
+Our goal is to prove $ 2\mathcal{R}\langle\,x,y\rangle=||x+ y||^2-||x||^2-||y||^2$ and $ -2\mathcal{R}\langle\,x,y\rangle=||x-y||^2-||x||^2-||y||^2.$
 
+For the plus sign, note that the $$R.H.S.=\mathcal{R}\langle\,x + y,x + y\rangle-\mathcal{R}\langle\,x,x\rangle-\mathcal{R}\langle\,y,y\rangle$$
+
+$$=\mathcal{R}\langle\,x,y\rangle+\mathcal{R}\langle\,y,x\rangle.$$
+
+Note that $\mathcal{R}\langle\,x,y\rangle = \mathcal{R}\langle\,y,x\rangle$ because $\overline{\langle\,x,y\rangle}=\langle\,y,x\rangle.$
+
+Therefore $L.H.S.=R.H.S..$
+
+For the minus sign, note that the $$R.H.S.=\mathcal{R}\langle\,x - y,x - y\rangle-\mathcal{R}\langle\,x,x\rangle-\mathcal{R}\langle\,y,y\rangle$$
+
+$$=\mathcal{R}\langle\,x,-y\rangle+\mathcal{R}\langle\,-y,x\rangle.$$ 
+
+Which is equal to $2\mathcal{R}\langle\,x,-y\rangle=-2\mathcal{R}\langle\,x,y\rangle=L.H.S..$
+
+Therefore, (a) is proved. Done.
+
+\subsection{(b)}
+To prove (b), it is suffice to prove $|~||x||-||y||~|^2\leq ||x-y||^2.$
+
+Iff, $$||x||^2+||y||^2-2||x|| \cdot ||y||\leq ||x||^2 + 2\mathcal{R}\langle\,x,y\rangle+||y||^2.$$
+
+iff, $$||x||\cdot ||y||\geq \mathcal{R}\langle\,x,y\rangle.$$
+
+Which is bound to be true because $$||x||\cdot ||y||\geq |\langle\,x,y\rangle|\geq \mathcal{R}\langle\,x,y\rangle.$$
+
+Done.
 
 
 
