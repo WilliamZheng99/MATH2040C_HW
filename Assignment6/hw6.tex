@@ -255,6 +255,36 @@ Hence (d) is proved.
 \end{figure}
 
 What I need to do is to 1. apply the G-S process to obtain a orthonormal basis.
-Compute Fourier coefficientt and use Theorem 6.5 to check.
+Compute Fourier coefficient and use Theorem 6.5 to check.
+
+Because this is about the matrices, I adopt the Frobenius inner product $$\langle\, A , B \rangle =tr(B^{*}A).$$.
+
+Denote the ones inside $S$ as $w_1,w_2,w_3.$
+
+Let $v_1=w_1=\begin{pmatrix} 3&5\\-1&1\end{pmatrix}.$
+
+And $v_2=w_2-\frac{\langle\, w_2 , v_1 \rangle}{\langle\, v_1 , v_1 \rangle}v_1=\begin{pmatrix} -4&4\\6&-2\end{pmatrix}.$
+
+And $v_3=w_3-\frac{\langle\, w_3,v_1\rangle}{\langle\, v_1 , v_1 \rangle}v_1-\frac{\langle\, w_3,v_2\rangle}{\langle\, v_2 , v_2 \rangle}v_2=\begin{pmatrix}9&-3\\6&-6 \end{pmatrix}.$
+
+By checking, the $v_i$'s are orthogonal.
+
+To normalize them, we can have $$S'=\{ \frac{1}{6}v_1, \frac{1}{6\sqrt{2}}v_2, \frac{1}{9\sqrt{2}}v_3\}=\{v_1',v_2',v_3'\}.$$
+
+Which is an orthonormal basis.
+
+To calculate the Fourier coefficient of $A,$ we calculate $$\langle\, A , v_1' \rangle=24, \langle\, A , v_2' \rangle=6\sqrt{2}, \langle\, A , v_3' \rangle=-9\sqrt{2}.$$
+
+By the Theorem 6.5, we $$24\frac{1}{6}v_1 + 6\sqrt{2}\frac{1}{6\sqrt{2}}v_2-9\sqrt{2}\frac{1}{9\sqrt{2}}v_3=\begin{pmatrix}-1&27\\-4&8 \end{pmatrix}.$$
+
+Which means that the theorem is verified.
+
+Done.
+
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
+
+
+
 
 \end{document}

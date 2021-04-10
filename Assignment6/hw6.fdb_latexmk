@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1618055001 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1618055003
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1618055002 1726 3dfb6d5ff2184d873c4e50ee30f41983 ""
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1618055000 9029 08c975c36cd4d62f4ab1daed6f2e7502 ""
+["pdflatex"] 1618061008 "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf" "hw6" 1618061010
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.aux" 1618061009 1726 3dfb6d5ff2184d873c4e50ee30f41983 ""
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.tex" 1618061007 10170 736ede0b0fcb67c079068e5055124c59 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -28,6 +28,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
@@ -75,8 +76,8 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1617683666 2724734 cdc08b019e91c51159b5d6d66da729b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "hw6.aux" 1618055002 1726 3dfb6d5ff2184d873c4e50ee30f41983 "pdflatex"
-  "hw6.tex" 1618055000 9029 08c975c36cd4d62f4ab1daed6f2e7502 ""
+  "hw6.aux" 1618061009 1726 3dfb6d5ff2184d873c4e50ee30f41983 "pdflatex"
+  "hw6.tex" 1618061007 10170 736ede0b0fcb67c079068e5055124c59 ""
   "img/Q1.png" 1617974230 38478 4b563afe73b0e24e5ef31a9121ad261d ""
   "img/Q2.png" 1617974204 18576 efca8635bb6a138872c7c9c49b4fa257 ""
   "img/Q3.png" 1617974218 32016 c1c8cbf12ae3ba0348a4870e81ded692 ""
@@ -84,8 +85,8 @@
   "img/Q5.png" 1618041724 58076 efcfcb2515397a78bd020a8e8c926b92 ""
   "img/Q6.png" 1618054829 18302 6258f686ac66d2dfead7adca683d81e1 ""
   (generated)
-  "hw6.log"
-  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.log"
   "hw6.aux"
-  "hw6.pdf"
+  "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.log"
+  "hw6.log"
   "/Users/wangyide/Desktop/MATH2040/Assignment6/hw6.pdf"
+  "hw6.pdf"
