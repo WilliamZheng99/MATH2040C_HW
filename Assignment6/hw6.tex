@@ -283,6 +283,37 @@ Done.
 
 \noindent\rule[0.1ex]{\linewidth}{1pt}
 
+\section{Section 6.2, Q2(i)}
+Let $v_1=w_1=\sin{t}$.
+
+Let $v_2=w_2-\frac{\langle\, w_2,v_1 \rangle}{\langle v_1,v_1\rangle}v_1=\cos{t}.$
+
+Let $v_3=w_3-\frac{\langle w_3,v_1 \rangle}{\langle v_1,v_1 \rangle}v_1-\frac{\langle w_3,v_2 \rangle}{\langle v_2,v_2 \rangle}v_2=1-\frac{4}{\pi}\sin{t}.$
+
+Let $v_4=w_4-\frac{\langle w_4,v_1 \rangle}{\langle v_1,v_1 \rangle}v_1-\frac{\langle w_4,v_2 \rangle}{\langle v_2,v_2 \rangle}v_2-\frac{\langle w_4,v_3 \rangle}{\langle v_3,v_3\rangle}v_3=t+\frac{4}{\pi}\cos{t}-\frac{\pi}{2}.$
+
+To normalize them, we can just calculate and divide them by their norm.
+
+$\because ||v_1||=\sqrt{\frac{\pi}{2}}, \therefore v_1'=\sqrt{\frac{2}{\pi}}v_1.$
+
+$\because ||v_2||=\sqrt{\frac{\pi}{2}}, \therefore v_2'=\sqrt{\frac{2}{\pi}}v_2.$
+
+$\because ||v_3||=\sqrt{\pi-\frac{8}{\pi}}, \therefore v_3'=\frac{1}{\sqrt{\pi-\frac{8}{\pi}}~}v_3.$
+
+$\because ||v_4||=\sqrt{\frac{\pi^3}{12}-\frac{8}{\pi}}, \therefore v_4'=\frac{1}{\sqrt{ \frac{\pi^3}{12}-\frac{8}{\pi}} }v_4.$
+
+Our $h(t)=2t+1.$
+
+Note that $\langle h, v_1'\rangle =6.609, \langle h, v_2'\rangle =-3.1915, \langle h, v_3'\rangle =3.195, \langle h, v_4'\rangle =0.38666.$
+
+Then by doing the calculation, we have $$h(t)=1.99999t+1.00000.$$
+
+Which is what we expected.
+
+Done.
+
+\noindent\rule[0.1ex]{\linewidth}{1pt}
+
 
 
 
