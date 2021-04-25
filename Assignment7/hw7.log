@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  25 APR 2021 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  25 APR 2021 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,13 +309,13 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 170--173
 Here is how much of TeX's memory you used:
  3837 strings out of 478994
  54933 string characters out of 5858185
- 355185 words of memory out of 5000000
+ 358185 words of memory out of 5000000
  21273 multiletter control sequences out of 15000+600000
  414841 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,6n,74p,267b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf (5 pages, 196469 bytes).
+Output written on /Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf (5 pages, 197517 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
