@@ -108,7 +108,44 @@ Which implies that $Ty=0.$ Therefore $y \in N(T).$ Hence $N(T^*T) \subset N(T).$
 
 Based on all above, $N(T^*T)=N(T).$
 
+Recall that $T \in \mathcal{L}(V).$ Hence $T:V \to V.$ And according to $\forall y \in V,$
+$$T^*(y)=\sum_{i=1}^n \overline{\langle T(v_i),y \rangle} v_i.$$
 
+We know that $T^*:V \to V.$ Therefore $T^*T:V \to V.$
+
+Applying the rank nullity theorem, we have that 
+$$\dim{V} = rank(T^*T)+\dim{N(T^*T)}~,~\dim{V} = rank(T)+\dim{N(T)}.$$
+
+Using the just proved fact $N(T^*T)=N(T),$ we can simply deduce $$rank(T^*T)=rank(T).$$
+
+\subsection{(b)}
+By changing name of the identity in (a), we can have $N(TT^*)=N(T^*)$ and $rank(TT^*)=rank(T^*).$
+
+Notice that $$rank(T)=rank[T]_\beta=rank[T]_\beta^*=rank[T^*]_\beta=rank(T^*).$$
+
+And then $rank(TT^*)=rank(T)$ follows.
+
+\subsection{(c)}
+From (b), $rank(AA^*)=rank(A)$ follows naturally. 
+
+And note that $(AA^*)^* =A^*A$, then $$rank(AA^*)=rank(A^*A).$$
+
+Therefore, $$rank(AA^*)=rank(A^*A)=rank(A).$$
+
+Done.
+
+
+
+
+\newpage
+
+\section{Section 6.3, Q14}
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 16cm]{img/Q3.png}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
+\end{figure}
 
 
 
