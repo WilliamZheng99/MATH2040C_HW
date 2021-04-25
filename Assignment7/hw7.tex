@@ -172,6 +172,67 @@ equality holds properly.
     %\label{fig:figure1label}
 \end{figure}
 
+\subsection{(a)}
+Define $g:V \to F$ by $g(x)=\langle T(x),y \rangle_2.$ Obviously, note that
+$g$ is linear for sure.
+
+Then apply the theorem 6.8, there exists a unique vector $y' \in W$ such that 
+$$g(x)=\langle x,y' \rangle_1.$$
+
+Recall $g$'s definition, we have $\langle T(x),y \rangle_2=\langle x,y' \rangle_1, ~\forall x \in V.$
+
+Define that $T^*:W \to V$ by $T^*(y)=y'.$
+
+Then we have $\langle T(x),y \rangle_2=\langle x,T^*(y) \rangle_1.$
+
+Hence the wanted $T^*$ function exists, and becasue the $y'$ is "unique" as mentioned above (for any y),
+then the $T^*$ is also unique.
+
+~\ 
+
+
+Then we prove the linearity of $T^*.$ $\forall y_1,y_2 \in W$ and $\forall c \in F$,
+$$\langle x,T^*(cy_1+y_2) \rangle_1 = \langle T(x),cy_1+y_2 \rangle_2
+=\langle x, cT^*(y_1) \rangle_1 + \langle x, T^*(y_2) \rangle_1 $$
+$$=\langle x, cT^*(y_1)+T^*(y_2) \rangle_1, \forall x \in V.$$
+
+Therefore $T^*(cy_1+y_2) = cT^*(y_1)+T^*(y_2).$ Hence $T^*$ is linear.
+
+\subsection{(b)}
+For such kind of problem, we need to compare the two matrices entry wise.
+Denote $\beta=\{v_1,v_2,\dots, v_n\}, \gamma=\{w_1,w_2,\dots,w_m\}.$
+
+Inspect $[T^*]_\gamma^{\beta}=[T^*(w_1),T^*(w_2),\dots,T^*(w_m)]_\beta.$
+
+Note that $T^*(w_j)=\sum_{i=1}^n \overline{\langle v_i,T^*(w_j) \rangle_1}v_i, ~\forall j=1,2,\dots,m.$
+
+From this we know that the i-th row, j-th column of $[T^*]_\gamma^{\beta}$ is $\overline{\langle v_i,T^*(w_j) \rangle_1}.$
+
+Inspect $[T]_\beta^{\gamma}=[T(v_1),T(v_2),\dots,T(v_n)]_\gamma$.
+
+Note that $T(v_i)=\sum_{k=1}^m \overline{\langle w_k,T(v_i) \rangle_2}w_k, ~\forall i=1,2,\dots,n.$
+
+Therefore, the i-th column, k-th row of $[T]_{\beta}^{\gamma}=\overline{\langle w_k,T(v_i) \rangle_2}.$
+
+Hence, for $([T]_{\beta}^{\gamma})^*$, the i-th row, j-th column is $\langle w_j,T(v_i) \rangle_2$.
+
+What remains to be done is to show $$\langle w_j,T(v_i) \rangle_2 = \overline{\langle v_i,T^*(w_j) \rangle_1}.$$
+
+This is equivalent to show $\overline{\langle w_j,T(v_i) \rangle_2} = \langle v_i,T^*(w_j) \rangle_1.$
+
+Note that the L.H.S.=$\langle T(v_i),w_j \rangle_2$=R.H.S. from the definition of $T^*.$ Hence this is proved.
+
+\subsection{(c)}
+
+
+
+
+
+
+
+
+
+
 
 
 
