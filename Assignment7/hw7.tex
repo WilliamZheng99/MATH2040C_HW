@@ -135,9 +135,8 @@ Therefore, $$rank(AA^*)=rank(A^*A)=rank(A).$$
 Done.
 
 
+\noindent\rule[0.1ex]{\linewidth}{1pt}
 
-
-\newpage
 
 \section{Section 6.3, Q14}
 \begin{figure}[htp]
@@ -146,6 +145,37 @@ Done.
     %\caption{Section 6.1 Q8}
     %\label{fig:figure1label}
 \end{figure}
+
+First we would prove that $T$ is linear. $\forall x_1,x_2 \in V, \forall c \in F,$
+$$T(cx_1+x_2)=\langle cx_1+x_2,y \rangle z = \langle cx_1,y \rangle z + \langle x_2,y \rangle z=c\langle x_1,y \rangle z+\langle x_2,y \rangle z.$$
+
+The equalities are deduced from the properties of inner product. And hence $$T(cx_1+x_2)=cT(x_1)+T(x_2).$$
+
+Therefore, $T$ is linear. 
+
+From course not we directly construct $\forall x \in V,$ 
+$$T^*(x)=\sum_{i=1}^n\ \overline{\langle T(v_i),x \rangle}v_i
+=\sum_{i=1}^n \overline{ \langle \langle v_i,y \rangle z, x \rangle }v_i
+=\overline{\langle z,x \rangle} \sum_{i=1}^n \overline{\langle v_i,y \rangle} v_i=\overline{\langle z,x \rangle}y.$$
+
+Recall that $y=I(y)=I^*(y)=\sum_{i=1}^n\ \overline{\langle I(v_i),y \rangle}v_i=\sum_{i=1}^n\ \overline{\langle v_i,y \rangle}v_i.$ Hence the last 
+equality holds properly.
+
+
+\newpage
+
+\section{Section 6.3, Q15}
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 17cm]{img/Q4.png}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
+\end{figure}
+
+
+
+
+
 
 
 
