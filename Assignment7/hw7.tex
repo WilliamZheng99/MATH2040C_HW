@@ -244,9 +244,29 @@ Which implies that $Tx=0.$ Hence $x \in N(T),$ and $N(T^*T)=N(T).$
 
 Done.
 
+\newpage
+
 \section{Section 6.4, Q2(d)}
+\begin{figure}[htp]
+    % \centering % 图片居中
+    \includegraphics[width = 16cm]{img/Q5a.png}
+    \includegraphics[width = 10cm]{img/Q5b.png}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
+\end{figure}
 
+Let $\{1,t,t^2\}$ be a basis for $P_2(\mathbb{R})$, then apply Gram-Schmidt process upon it, 
+we can have an orthonormal basis $\beta=\{1,2\sqrt{3}(t-\frac{1}{2}),6\sqrt{5}(t^2-t+\frac{1}{6})\}.$
 
+First, we claim that $T$ is not self-adjoint, by the spectral theorem, $T$ is 
+self-adjoint iff, $T$ is diagnoalizable, which implies that it will lead to the 
+eigenspace decomposition of $V$. Note that there is only one eigenvalue of $T$, 
+which is 0 and the only corresponding set 
+of eigenvectors is $span\{1\}$. It is obvious that $E_0 \neq V,$ 
+since $t^2 \notin E_0.$ Therefore $T$ is not self-adjoint and meanwhile, 
+it is impossible to derive a orthonormal basis of eigenvectors of T for V.
+
+Also, $T$ is not normal (?)
 
 
 
