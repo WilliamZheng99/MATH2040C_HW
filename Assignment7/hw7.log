@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  26 APR 2021 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  26 APR 2021 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -344,28 +344,25 @@ File: img/Q8b.png Graphic file (type png)
 Package pdftex.def Info: img/Q8b.png  used on input line 365.
 (pdftex.def)             Requested size: 113.81102pt x 38.61497pt.
  [9 </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q7.png> </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q8a.png> </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q8b.png>]
-File: img/Q8a.png Graphic file (type png)
-<use img/Q8a.png>
-Package pdftex.def Info: img/Q8a.png  used on input line 394.
-(pdftex.def)             Requested size: 455.24408pt x 41.85364pt.
-File: img/Q8b.png Graphic file (type png)
-<use img/Q8b.png>
-Package pdftex.def Info: img/Q8b.png  used on input line 395.
-(pdftex.def)             Requested size: 113.81102pt x 38.61497pt.
- [10] (/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux) ) 
+<img/Q9.png, id=65, 564.1075pt x 174.6525pt>
+File: img/Q9.png Graphic file (type png)
+<use img/Q9.png>
+Package pdftex.def Info: img/Q9.png  used on input line 394.
+(pdftex.def)             Requested size: 455.24408pt x 140.94807pt.
+ [10 </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q9.png>] (/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux) ) 
 Here is how much of TeX's memory you used:
- 3873 strings out of 478994
- 55407 string characters out of 5858185
+ 3879 strings out of 478994
+ 55482 string characters out of 5858185
  358187 words of memory out of 5000000
- 21303 multiletter control sequences out of 15000+600000
+ 21308 multiletter control sequences out of 15000+600000
  414841 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,9n,74p,267b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf (10 pages, 278664 bytes).
+Output written on /Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf (10 pages, 297913 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
