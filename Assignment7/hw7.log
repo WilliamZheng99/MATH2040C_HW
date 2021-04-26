@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  26 APR 2021 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.6)  26 APR 2021 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,20 +333,39 @@ File: img/Q7.png Graphic file (type png)
 <use img/Q7.png>
 Package pdftex.def Info: img/Q7.png  used on input line 340.
 (pdftex.def)             Requested size: 455.24408pt x 52.46783pt.
- [9 </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q7.png>] (/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux) ) 
+<img/Q8a.png, id=57, 534.99875pt x 49.18375pt>
+File: img/Q8a.png Graphic file (type png)
+<use img/Q8a.png>
+Package pdftex.def Info: img/Q8a.png  used on input line 364.
+(pdftex.def)             Requested size: 455.24408pt x 41.85364pt.
+<img/Q8b.png, id=58, 168.63pt x 57.21375pt>
+File: img/Q8b.png Graphic file (type png)
+<use img/Q8b.png>
+Package pdftex.def Info: img/Q8b.png  used on input line 365.
+(pdftex.def)             Requested size: 113.81102pt x 38.61497pt.
+ [9 </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q7.png> </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q8a.png> </Users/wangyide/Desktop/MATH2040/Assignment7/img/Q8b.png>]
+File: img/Q8a.png Graphic file (type png)
+<use img/Q8a.png>
+Package pdftex.def Info: img/Q8a.png  used on input line 394.
+(pdftex.def)             Requested size: 455.24408pt x 41.85364pt.
+File: img/Q8b.png Graphic file (type png)
+<use img/Q8b.png>
+Package pdftex.def Info: img/Q8b.png  used on input line 395.
+(pdftex.def)             Requested size: 113.81102pt x 38.61497pt.
+ [10] (/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux) ) 
 Here is how much of TeX's memory you used:
- 3861 strings out of 478994
- 55245 string characters out of 5858185
- 358185 words of memory out of 5000000
- 21293 multiletter control sequences out of 15000+600000
+ 3873 strings out of 478994
+ 55407 string characters out of 5858185
+ 358187 words of memory out of 5000000
+ 21303 multiletter control sequences out of 15000+600000
  414841 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,74p,267b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,9n,74p,267b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf (9 pages, 265873 bytes).
+Output written on /Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf (10 pages, 278664 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 52 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1619426858 "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf" "hw7" 1619426860
-  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux" 1619426859 1914 6a290dfdc3926290322d66ba003f1983 ""
-  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" 1619426857 12669 4fd7fbab213b2f4a6afebf4dbf5575d9 ""
+["pdflatex"] 1619429002 "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf" "hw7" 1619429004
+  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux" 1619429004 2125 fc91185b4a53e2db48f0c8dea0c36a1e ""
+  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" 1619428999 13924 4b82fc6bc6a80995b772c0acc667f6f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -66,8 +66,8 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1617683666 2724734 cdc08b019e91c51159b5d6d66da729b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "hw7.aux" 1619426859 1914 6a290dfdc3926290322d66ba003f1983 "pdflatex"
-  "hw7.tex" 1619426857 12669 4fd7fbab213b2f4a6afebf4dbf5575d9 ""
+  "hw7.aux" 1619429004 2125 fc91185b4a53e2db48f0c8dea0c36a1e "pdflatex"
+  "hw7.tex" 1619428999 13924 4b82fc6bc6a80995b772c0acc667f6f4 ""
   "img/Q1a.png" 1619334216 16220 af75602d370d9d225511c9e92132e28e ""
   "img/Q1b.png" 1619334305 14957 4a21d2af3c32e9ff1acf246f7330053d ""
   "img/Q2.png" 1619337344 30555 ce990d295dde3fdf091842cd30308661 ""
@@ -77,9 +77,11 @@
   "img/Q5b.png" 1619365627 15562 ab99066f94e75e056b937b6766167cf5 ""
   "img/Q6.png" 1619370652 35146 1d88db922f7ba0d18f9aba27349f7a07 ""
   "img/Q7.png" 1619424890 21345 0a88f88e76bfea667b47b2a26959f42c ""
+  "img/Q8a.png" 1619426957 16364 bdc9c327b3841cec491d5eeb178d69a2 ""
+  "img/Q8b.png" 1619427144 9740 540501a80903c66c403e6797051a43a4 ""
   (generated)
-  "hw7.pdf"
   "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf"
-  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.log"
   "hw7.log"
+  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.log"
   "hw7.aux"
+  "hw7.pdf"

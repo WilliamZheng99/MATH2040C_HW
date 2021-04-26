@@ -355,8 +355,47 @@ As $N(T)=N(T^{\perp})$, then $R(T)=R(T^*).$
 
 Done.
 
+\noindent\rule[0.1ex]{\linewidth}{1pt}
 
 
+\section{Section 6.5, Q2(c)}
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 16cm]{img/Q8a.png}
+    \includegraphics[width = 4cm]{img/Q8b.png}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
+\end{figure}
+
+By solving its characteristic polynomial, we have 2 eigenvalues: $\lambda_1=-1$ and $\lambda_2=8.$
+
+And we can have $v_1=\begin{pmatrix} 1-i\\-1 \end{pmatrix}$ and 
+$v_2=\begin{pmatrix} 1\\1+i \end{pmatrix}.$
+
+Normalize them, we then have $v_1'=\frac{1}{\sqrt{3}}v_1,v_2'=\frac{1}{\sqrt{3}}v_2.$
+
+Then let $P=\begin{pmatrix} v_1'& v_2' \end{pmatrix}.$ 
+
+And hence the 
+$P^*=\begin{pmatrix} -\overline{v_1'}-\\-\overline{v_2'}-  \end{pmatrix}.$
+
+Note that $P^*P=I_2.$ Therefore $P$ is a unitary matrix.
+
+Then $$P^*AP=P^*(\lambda_1 v_1', \lambda_2 v_2')=
+\begin{pmatrix} -\overline{v_1'}-\\-\overline{v_2'}-  \end{pmatrix}(\lambda_1 v_1', \lambda_2 v_2')
+=\begin{pmatrix} \lambda_1&0\\0&\lambda_2 \end{pmatrix}.$$
+
+
+\newpage
+
+\section{Section 6.5, Q6}
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 16cm]{img/Q8a.png}
+    \includegraphics[width = 4cm]{img/Q8b.png}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
+\end{figure}
 
 
 
