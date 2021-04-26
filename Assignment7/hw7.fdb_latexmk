@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1619436540 "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf" "hw7" 1619436542
-  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux" 1619436541 2322 c431c9c23239f36bfadd2c130d379549 ""
-  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" 1619436537 15361 788f2a4cb3ff1108c8cf67121c960b20 ""
+["pdflatex"] 1619443119 "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf" "hw7" 1619443121
+  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.aux" 1619443120 2627 f45542a28d8e4a1c7c52dcbb322a5e28 ""
+  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.tex" 1619443118 16579 e2a3aa27add0f10f1d58775384caf36b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -67,8 +67,9 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1617683666 2724734 cdc08b019e91c51159b5d6d66da729b3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "hw7.aux" 1619436541 2322 c431c9c23239f36bfadd2c130d379549 "pdflatex"
-  "hw7.tex" 1619436537 15361 788f2a4cb3ff1108c8cf67121c960b20 ""
+  "hw7.aux" 1619443120 2627 f45542a28d8e4a1c7c52dcbb322a5e28 "pdflatex"
+  "hw7.tex" 1619443118 16579 e2a3aa27add0f10f1d58775384caf36b ""
+  "img/Q10.png" 1619429451 17931 745ad55dc6a99b52669836279d4f3b43 ""
   "img/Q1a.png" 1619334216 16220 af75602d370d9d225511c9e92132e28e ""
   "img/Q1b.png" 1619334305 14957 4a21d2af3c32e9ff1acf246f7330053d ""
   "img/Q2.png" 1619337344 30555 ce990d295dde3fdf091842cd30308661 ""
@@ -82,8 +83,8 @@
   "img/Q8b.png" 1619427144 9740 540501a80903c66c403e6797051a43a4 ""
   "img/Q9.png" 1619429430 30620 6c94c869f9dd44547ae3bd9ae6ecdad8 ""
   (generated)
-  "hw7.log"
-  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf"
-  "hw7.aux"
   "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.log"
+  "/Users/wangyide/Desktop/MATH2040/Assignment7/hw7.pdf"
   "hw7.pdf"
+  "hw7.aux"
+  "hw7.log"

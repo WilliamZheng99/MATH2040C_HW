@@ -431,8 +431,42 @@ Which is a contradiction, hence $\forall t\in [0,1], |h(t)|=1$ at the first plac
 
 \subsection{If}
 
+The if part is relatively easier. Now we have the condition of 
+$$\forall t\in [0,1], |h(t)|=1.$$
+
+Note that $\forall f \in V,$ $$|| T(f) ||^2=|| h(t)f(t) ||^2
+=\int_{0}^1 h(t)\overline{h(t)}f(t)\overline{f(t)}dt
+=\int_{0}^1 f(t)\overline{f(t)}dt
+=||f||^2.$$
+
+Note that this is equivalent to $TT*=T^*T=I.$ Which is definitely 
+suffice to say that $T$ is unitary.
 
 
+\newpage
+
+\section{Section 6.5, Q13}
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 16cm]{img/Q10.png}
+    %\label{fig:figure1label}
+\end{figure}
+
+\subsection{If}
+The "if" part it naturally true. Because unitary matrices are invertible.
+
+\subsection{Only If}
+We prove this part to be not true generally using counter example. 
+
+Take $A=\begin{pmatrix} 3&1\\-2&0 \end{pmatrix}, 
+B=\begin{pmatrix} 1&1\\0&2 \end{pmatrix}.$ $A,B$ both have 2 distint eigenvalues, hence diagnoalizable.
+
+They are similar since $B=S^{-1}AS,$ where 
+$S=\begin{pmatrix} 1&1\\-2&0 \end{pmatrix}.$
+
+But $A$ and $B$ are not unitarily equivalent. 
+That's becasue a necessary for 2 matrices being unitarily equivalent is that the sum of the square of their entries being the same.
+While $9+1+4+0=14 \neq 1+1+0+4 =6.$ Hence $A,B$ not unitarily similar.
 
 
 
