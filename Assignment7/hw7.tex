@@ -279,8 +279,22 @@ Also, $T$ is not normal.
     %\label{fig:figure1label}
 \end{figure}
 
+\subsection{(a)}
+Denote $\dim{V}=n,\dim{W}=m$, with $m\leq n.$ Let $\beta=\{v_1,v_2,\dots,v_n\}$
+be an orthonormal basis for $V$, $\beta_W=\{v_1,v_2,\dots,v_m\}$ be an orthonormal basis for $W$.
 
+$\forall y\in W,$ $T_W(y)=T(y)=\sum_{i=1}^n \langle T(y),v_i \rangle v_i=T^*(y).$ Because $T$ is a self adjoint opeartor.
 
+From the construction rule of adjoint, we have 
+$T^*(y)=\sum_{i=1}^n \overline{\langle T(v_i),y \rangle} v_i.$
+
+From the question, we know that $W$ is T-invarian, then $T_W(y) \in W.$ Combined with $v_i$'s are 
+linear independent, then 
+$$T_W(y)=\sum_{i=1}^m \overline{\langle T(v_i),y \rangle} v_i=\sum_{i=1}^m \overline{\langle T_W(v_i),y \rangle} v_i.$$
+
+Note that the R.H.S. is the definition of $T_W^*(y).$ Hence $$T_W(y)=T_W^*(y), \forall y \in W.$$
+
+\subsection{(b)}
 
 
 
