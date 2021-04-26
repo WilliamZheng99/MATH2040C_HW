@@ -295,8 +295,65 @@ $$T_W(y)=\sum_{i=1}^m \overline{\langle T(v_i),y \rangle} v_i=\sum_{i=1}^m \over
 Note that the R.H.S. is the definition of $T_W^*(y).$ Hence $$T_W(y)=T_W^*(y), \forall y \in W.$$
 
 \subsection{(b)}
+Make it clear that what we want is $T^*(W^\perp) \subset W^\perp.$ By the construction of $T^*,$ we have 
+$$T^*(y)=\sum_{i=1}^n \overline{\langle T(v_i),y \rangle} v_i.$$
+
+Note that $\forall y \in W^{\perp}, y=\sum_{j=m+1}^n \langle y,v_i \rangle v_i.$
+
+Therefore $$T^*(y)=\sum_{i=1}^n v_i (\sum_{j=m+1}^n \langle y,v_j \rangle \langle v_j, T(v_i) \rangle ).$$
+
+Recall that $W$ is T-invariant, hence $T(v_i) \in W$, then $\langle v_j, T(v_i) \rangle=0, \forall i\leq m.$
+
+Hence $T^*(y)=\sum_{i=m+1}^n v_i \sum_{j=m+1}^n \langle y,v_j \rangle \langle v_j, T(v_i) \rangle  \in W^{\perp}.$
+
+\subsection{(c)}
+$\forall y \in W,$ $(T_W)^*(y)=\sum_{i=1}^m \overline{\langle T_W(v_i),y \rangle} v_i.$ Because $(T_W)^*(y) \in W$ assumed in question.
+
+Note that $y \in W, $ then $y \in V.$ Hence we can use the original definition of $T.$ We then have
+$$(T^*)_W(y)=T^*(y)=\sum_{i=1}^n \overline{\langle T(v_i),y \rangle} v_i.$$
+
+Inspect the $\langle T(v_i),y \rangle$ terms, here $y \in W$. If $i=1,2,\dots,m$ then $T(v_i) \in W,$ when 
+$i=m+1,m+2,\dots,n$ then $v_i \in W^{\perp}$ and hence $T(v_i) \in W^{\perp}.$ Therefore 
+$\langle T(v_i),y \rangle =0, \forall i=m+1,m+2,\dots,n.$
+
+Hence, we have $$(T^*)_W(y)=T^*(y)=\sum_{i=1}^m \overline{\langle T(v_i),y \rangle} v_i=\sum_{i=1}^m \overline{\langle T_W(v_i),y \rangle} v_i=(T_W)^*(y).$$
+
+Done.
+
+\subsection{(d)}
+Note that as mentioned in the question, $W$ is both $T-$ and $T^*-$ invariant.
+Hence $\forall y \in W,$ $$T_W (T_W)^* (y)=T_W(T^*(y)).$$ 
+Where $T^*(y) \in W.$ Then $T_W (T_W)^* (y)=TT^*(y),$ where $TT^*(y) \in W$ as well.
+
+On the other hand, $$(T_W)^*T_W(y)=(T_W)^*T(y)=T^*T(y).$$ Which is valid for similar reasons.
+
+Recall that $T$ is normal. Hence $(T_W)^*T_W(y)=T_W (T_W)^* (y), \forall y \in W.$
+
+Therefore, $T_W$ is normal.
 
 
+\newpage
+
+\section{Section 6.4, Q9}
+\begin{figure}[htp]
+    \centering % 图片居中
+    \includegraphics[width = 16cm]{img/Q7.png}
+    %\caption{Section 6.1 Q8}
+    %\label{fig:figure1label}
+\end{figure}
+
+From theorem 6.15, we know that $||T(x)||=||T^*(x)||, \forall x \in V.$
+
+$\forall x \in N(T),$ then $T(x)=0,$ which is equivalent to $||T(x)||=0.$
+Then $||T^*(x)||=0,$ which is equivalent to $T^*(x)=0.$ Thus $x \in N(T^*).$ 
+Note that each step above is revertible, then $N(T)=N(T^*).$
+
+Using the question 12 of section 6.3, we then have $N(T)^{\perp}=R(T^*)$ and 
+$N(T^*)^{\perp}=R((T^*)^*)=R(T).$ 
+
+As $N(T)=N(T^{\perp})$, then $R(T)=R(T^*).$
+
+Done.
 
 
 
