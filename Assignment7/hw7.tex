@@ -395,10 +395,41 @@ Then $$P^*AP=P^*(\lambda_1 v_1', \lambda_2 v_2')=
     %\label{fig:figure1label}
 \end{figure}
 
+\subsection{Only If}
 
+We would like to prove it by contradiction. Note that now we have the condition of 
+$T$ being unitary opeartor. This implies that 
+$$||T(f)||=||f||, \forall f\in V.$$
 
+Doing the inner product, we left with 
+$$\int_{0}^1 |f(t)|^2 (|h(t)|^2-1)dt=0.$$
 
+Recall that all of the $h,f$ are continuous functions defined on compact interval.
+On which we can apply the boundedness theorem to obtain that 
+$$\exists M>0, s.t.~-M<\int_{0}^1 |f(t)|^2 (|h(t)|^2-1)dt< M$$
 
+Suppose $|h(t)|\neq 1$ for some $t_0 \in [0,1]$ (WLOG, we suppose $h(t_0)>1.$) we will construct a $g(t)$ s.t. 
+$$\int_{0}^1 |g(t)|^2 (|h(t)|^2-1)dt \neq0.$$
+
+Note that $\exists$ a interval $I$ such that $\forall t\in I, h(t)\geq \frac{1+h(t_0)}{2}.$ 
+Where $I$ is defined in the following way: $\exists \delta>0 $ s.t. 
+$$I=[t_0-\delta,t_0+\delta]~~(t_0 \in (0,1))$$
+$$I=[0,t_0+\delta]~~(t_0 =0)$$
+$$I=[t_0-\delta,1]~~(t_0 =1).$$
+
+Applying the boundedness theorem on $I$, then $\int_{I} |f(t)|^2 (|h(t)|^2-1)dt$ is also finite. 
+Which deduces that $\int_{[0,1]-I} |f(t)|^2 (|h(t)|^2-1)dt$ is a subtraction of 2 finite values, 
+hence is also a finite number, denote it as $M_1$. 
+
+Note that $$\int_{I} |f(t)|^2 (|h(t)|^2-1)dt \geq (h(t_0)-1)\int_{I} |f(t)|^2 dt.$$
+
+Manipulate the value of $f(t), t\in I$ such that $\int_{I} |f(t)|^2 dt > \frac{|M_1|+1}{h(t_0)-1}.$
+
+Thus we have $$\int_{0}^1 |f(t)|^2 (|h(t)|^2-1)dt>M_1 + |M_1| +1>0.$$
+
+Which is a contradiction, hence $\forall t\in [0,1], |h(t)|=1$ at the first place.
+
+\subsection{If}
 
 
 
